@@ -32,6 +32,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -138,14 +139,6 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 1364269828663377128, guid: 7348a15a3ae29024aa9a35620c7cf285, type: 2}
     value: {fileID: 0}
-  - key: {fileID: 386311268279889812, guid: 7348a15a3ae29024aa9a35620c7cf285, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 1047342175955678552, guid: 7348a15a3ae29024aa9a35620c7cf285, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 1995614921678605703, guid: 7348a15a3ae29024aa9a35620c7cf285, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -3405260269943733746, guid: 7348a15a3ae29024aa9a35620c7cf285, type: 2}
-    value: {fileID: 0}
   - key: {fileID: 1364269828663377128, guid: 36b42a42da000ea449e8f20243ffc336, type: 2}
     value: {fileID: 0}
   - key: {fileID: 386311268279889812, guid: 36b42a42da000ea449e8f20243ffc336, type: 2}
@@ -207,8 +200,6 @@ PlayableDirector:
   - key: {fileID: 1995614921678605703, guid: ae5296b351b40bd488a4bad8b8e1a786, type: 2}
     value: {fileID: 0}
   - key: {fileID: -3405260269943733746, guid: ae5296b351b40bd488a4bad8b8e1a786, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -3330847331989903630, guid: 7348a15a3ae29024aa9a35620c7cf285, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
@@ -310,7 +301,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &1604570903184279281
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -323,10 +314,12 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1604570903184279291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,3 +373,9 @@ MonoBehaviour:
     m_Bits: 1
   m_SwipeThreshold: 20
   m_DetectSwipeOnlyAfterRelease: 0
+  m_DisableKeyInputInEditor: 0
+  m_DisableTouchInputInEditor: 0
+  m_DisableMouseInputInEditor: 0
+  m_DisableKeyInputInBuild: 0
+  m_DisableTouchInputInBuild: 0
+  m_DisableMouseInputInBuild: 0
