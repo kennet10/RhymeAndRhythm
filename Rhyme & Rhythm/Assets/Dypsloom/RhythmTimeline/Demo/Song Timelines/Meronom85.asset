@@ -1968,6 +1968,30 @@ MonoBehaviour:
     m_StringParameter: 
     m_FloatParameter: 0
     m_ObjectReferenceParameter: {fileID: 0}
+--- !u!114 &-1537039840957202729
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be2b88710e4502a45800deefbabf1b37, type: 3}
+  m_Name: Rhythm Track (4)
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+  m_ID: 0
 --- !u!114 &-1493410228735022422
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2270,9 +2294,11 @@ MonoBehaviour:
   - {fileID: 1995614921678605703}
   - {fileID: -3405260269943733746}
   - {fileID: -3330847331989903630}
+  - {fileID: -1537039840957202729}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
+    m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 1530569935776417800}
   m_Bpm: 85
@@ -2283,6 +2309,11 @@ MonoBehaviour:
   m_Description: 
   m_Dificulty: 1
   m_AudioClip: {fileID: 8300000, guid: 79eae804f64cd2a469407f3382107a2d, type: 3}
+  m_StartScore: 0
+  m_MaxScore: -1
+  m_MinScore: 0
+  m_PreventMaxScoreOvershoot: 0
+  m_PreventMinScoreOvershoot: 0
   m_HighScore:
     m_NoteAccuracyIDHistogram: 00000000040000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000010000000000000001000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     m_FullScore: 48400
