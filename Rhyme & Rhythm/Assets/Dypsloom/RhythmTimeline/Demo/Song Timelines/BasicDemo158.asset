@@ -4148,7 +4148,6 @@ MonoBehaviour:
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
-    m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 1530569935776417800}
   m_Bpm: 158
@@ -4159,11 +4158,6 @@ MonoBehaviour:
   m_Description: 
   m_Dificulty: 3
   m_AudioClip: {fileID: 8300000, guid: 99ca6f1351157fd42a1635c5e2cf843f, type: 3}
-  m_StartScore: 0
-  m_MaxScore: -1
-  m_MinScore: 0
-  m_PreventMaxScoreOvershoot: 0
-  m_PreventMinScoreOvershoot: 0
   m_HighScore:
     m_NoteAccuracyIDHistogram: 
     m_FullScore: 0
