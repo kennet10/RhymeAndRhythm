@@ -20,16 +20,16 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
-  m_Bpm: 120
+  m_Bpm: 118
   m_OverrideNoteSpeed: 0
   m_NoteSpeed: 3
   m_FullName: 
   m_Authour: 
   m_Description: 
   m_Dificulty: 0
-  m_AudioClip: {fileID: 0}
+  m_AudioClip: {fileID: 8300000, guid: 8350a3eb62f807f46a75340ab1fc7d99, type: 3}
   m_StartScore: 0
-  m_MaxScore: -1
+  m_MaxScore: 1000000
   m_MinScore: 0
   m_PreventMaxScoreOvershoot: 0
   m_PreventMinScoreOvershoot: 0
