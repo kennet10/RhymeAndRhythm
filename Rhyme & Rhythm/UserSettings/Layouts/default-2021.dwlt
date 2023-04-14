@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 21
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 146
+  controlID: 22
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 430
     height: 987
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -244,8 +244,8 @@ MonoBehaviour:
     y: 0
     width: 917
     height: 508
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -347,10 +347,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 131}
-      m_SelectedIDs: 4efaffff
-      m_LastClickedID: -1458
-      m_ExpandedIDs: 34cafffffccfffff02d0ffff7cd0ffff9ed0ffffaad0ffffdaf8ffffecf8fffffef8ffff12f9ffff22f9ffff46f9ffff5af9ffff7af9ffff9ef9ffffb2f9ffffc2f9ffffd4f9ffffe6f9fffffaf9ffff0afaffff2efaffff42faffff52faffff76faffff8afaffff9afaffffbefaffffd2fafffff0faffff14fbffff28fbffff2afbffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 1e590000
+      m_LastClickedID: 0
+      m_ExpandedIDs: f4d0ffffa6d3ffff82f5ffff94f5ffffa6f5ffffb2f6ffffc4f6ffffd6f6ffff42f7ffff54f7ffff66f7ffff98f7ffffaaf7ffffbcf7ffffd2f7ffff2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -458,13 +458,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Dypsloom/RhythmTimeline/Demo/ScriptableObjects/Notes
+    - Assets/Template
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Dypsloom/RhythmTimeline/Demo/ScriptableObjects/Notes
+  - Assets/Template
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kenne\OneDrive\Documents\GitHub\ICS166-Rhythm_Game\Rhyme
     & Rhythm
@@ -472,9 +472,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e580000
-    m_LastClickedID: 22590
-    m_ExpandedIDs: 000000002058000022580000245800002658000028580000
+    m_SelectedIDs: 0e590000
+    m_LastClickedID: 22798
+    m_ExpandedIDs: 00000000de580000e0580000e4580000e6580000e8580000005900000c590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,7 +502,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002058000022580000245800002658000028580000
+    m_ExpandedIDs: 00000000de580000e0580000e2580000e4580000e6580000e8580000ea580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -932,9 +932,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.8158564, y: 1.8550887, z: 0.080313556}
+    m_Target: {x: -7.94544, y: -1.4392097, z: -0.090113625}
     speed: 2
-    m_Value: {x: -0.8158564, y: 1.8550887, z: 0.080313556}
+    m_Value: {x: -8.582869, y: -1.24612, z: -0.1008382}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -985,9 +985,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.71747
+    m_Target: 22.760015
     speed: 2
-    m_Value: 5.71747
+    m_Value: 23.832478
   m_Ortho:
     m_Target: 1
     speed: 2
