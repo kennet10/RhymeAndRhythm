@@ -1964,7 +1964,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: "\u2001"
   - m_Version: 1
-    m_Start: 59.16531977471622
+    m_Start: 58.74901961485545
     m_ClipIn: 0
     m_Asset: {fileID: 4809735715093258551}
     m_Duration: 0.44117647409439087
@@ -2033,7 +2033,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: "\u2001"
   - m_Version: 1
-    m_Start: 60.70943742177504
+    m_Start: 60.220588238800275
     m_ClipIn: 0
     m_Asset: {fileID: -3215844918965870358}
     m_Duration: 0.44117647409439087
@@ -15506,7 +15506,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: "\u2001"
   - m_Version: 1
-    m_Start: 59.6064962417983
+    m_Start: 59.19019608894984
     m_ClipIn: 0
     m_Asset: {fileID: 5415818089151151314}
     m_Duration: 0.44117647409439087
@@ -15575,7 +15575,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: "\u2001"
   - m_Version: 1
-    m_Start: 61.150613895869434
+    m_Start: 60.661764712894666
     m_ClipIn: 0
     m_Asset: {fileID: 5613193783163004463}
     m_Duration: 0.44117647409439087
@@ -17279,7 +17279,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: "\u2001"
   - m_Version: 1
-    m_Start: 59.60649624881057
+    m_Start: 59.19019608894984
     m_ClipIn: 0
     m_Asset: {fileID: 6466727610396239228}
     m_Duration: 0.44117647409439087
@@ -17348,7 +17348,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: "\u2001"
   - m_Version: 1
-    m_Start: 61.150613895869434
+    m_Start: 60.661764712894666
     m_ClipIn: 0
     m_Asset: {fileID: 4504560654271223246}
     m_Duration: 0.44117647409439087
@@ -18542,7 +18542,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: "\u2001"
   - m_Version: 1
-    m_Start: 58.724143300621826
+    m_Start: 58.30784314076106
     m_ClipIn: 0
     m_Asset: {fileID: -3814790548343598720}
     m_Duration: 0.44117647409439087
@@ -18611,7 +18611,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: "\u2001"
   - m_Version: 1
-    m_Start: 60.26826094768065
+    m_Start: 59.779411764705884
     m_ClipIn: 0
     m_Asset: {fileID: 1708780643506281660}
     m_Duration: 0.44117647409439087
