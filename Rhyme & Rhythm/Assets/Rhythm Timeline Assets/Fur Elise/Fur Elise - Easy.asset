@@ -6528,7 +6528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fae432735e845c1b3261f7bbb4c9628, type: 3}
   m_Name: BPM Off Beat Marker
   m_EditorClassIdentifier: 
-  m_Time: 9.044117647058822
+  m_Time: 7.279411764705882
   m_ID: 1
 --- !u!114 &-3842746061730639513
 MonoBehaviour:

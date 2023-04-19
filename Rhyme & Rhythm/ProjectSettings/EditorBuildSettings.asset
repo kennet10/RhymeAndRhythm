@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Dypsloom/RhythmTimeline/Demo/BasicDemo.unity
-    guid: 91e046211ff1ce34e965212d0feeeb72
+    path: Assets/Scenes/Fur Elise/Fur Elise - Easy.unity
+    guid: c36e6e00ffa9f324ba739b4f7739313e
   m_configObjects: {}
