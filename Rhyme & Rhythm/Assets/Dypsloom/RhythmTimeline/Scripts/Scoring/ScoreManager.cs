@@ -1,4 +1,4 @@
-﻿/// ---------------------------------------------
+/// ---------------------------------------------
 /// Rhythm Timeline
 /// Copyright (c) Dyplsoom. All Rights Reserved.
 /// https://www.dypsloom.com
