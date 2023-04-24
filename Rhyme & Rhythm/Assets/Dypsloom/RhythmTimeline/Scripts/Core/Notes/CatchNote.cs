@@ -9,6 +9,13 @@ namespace Dypsloom.RhythmTimeline.Core.Notes
         {
             base.Initialize(rhythmClipData);
         }
+
+        protected override void Update()
+        {
+            base.Update();
+
+        }
+
         public override void Reset()
         {
             base.Reset();
@@ -34,7 +41,7 @@ namespace Dypsloom.RhythmTimeline.Core.Notes
             var targetPosition = m_RhythmClipData.TrackObject.EndPoint.position.y;
             var currentPosition = RhythmClipData.TrackObject.transform.position.y;
             //Since this is a tap note, only deal with tap inputs.
-            if (!inputEventData.Tap && currentPosition == targetPosition) { return; }
+            if (!inputEventData.Hold) { return; }
 
             //The gameobject can be set to active false. It is returned to the pool automatically when reset.
             gameObject.SetActive(false);

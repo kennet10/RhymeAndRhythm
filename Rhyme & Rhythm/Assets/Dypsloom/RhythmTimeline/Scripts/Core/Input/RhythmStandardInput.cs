@@ -23,6 +23,7 @@ namespace Dypsloom.RhythmTimeline.Core.Input
         public virtual bool Tap => InputID == 0;
         public virtual bool Release => InputID == 1;
         public virtual bool Swipe => InputID == 2;
+        public virtual bool Hold => InputID == 3;
 
         public InputEventData(int trackID, int inputID)
         {
@@ -93,6 +94,36 @@ namespace Dypsloom.RhythmTimeline.Core.Input
         }
     }
 
+    [Serializable]
+    public struct HoldInput
+    {
+        [SerializeField] private KeyCode m_Key;
+        [SerializeField] private string m_Button;
+
+        public HoldInput(KeyCode key, string button = null)
+        {
+            m_Key = key;
+            m_Button = button;
+        }
+
+        public bool GetInput()
+        {
+            var input = false;
+
+            if (m_Key != KeyCode.None)
+            {
+                input |= Input.GetKey(m_Key);
+            }
+
+            if (string.IsNullOrWhiteSpace(m_Button) == false)
+            {
+                input |= Input.GetButton(m_Button);
+            }
+
+            return input;
+        }
+    }
+
     /// <summary>
     /// Gets information from the RhythmDirector and from the input to processes notes.
     /// </summary>
@@ -105,6 +136,8 @@ namespace Dypsloom.RhythmTimeline.Core.Input
         [Tooltip("The Key input for each track.")]
         [SerializeField] protected SimpleInput[] m_TrackInput;
         [Tooltip("The key code to swipe left.")]
+        [SerializeField] protected HoldInput m_InputHold = new HoldInput();
+        [Tooltip("Detect input hold.")]
         [SerializeField] protected SimpleInput m_SwipeLeft = new SimpleInput(KeyCode.LeftArrow);
         [Tooltip("The key code to swipe right.")]
         [SerializeField] protected SimpleInput m_SwipeRight = new SimpleInput(KeyCode.RightArrow);
@@ -207,6 +240,10 @@ namespace Dypsloom.RhythmTimeline.Core.Input
                     } 
                     if (m_SwipeRight.GetInputDown()) {
                         TriggerInput(trackInputEventData, 2, Vector2.right);
+                    }
+                   if (m_InputHold.GetInput())
+                    {
+                        TriggerInput(trackInputEventData, 3);
                     }
                 }
             }

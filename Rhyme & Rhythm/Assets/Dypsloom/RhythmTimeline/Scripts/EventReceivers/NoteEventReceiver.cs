@@ -13,7 +13,7 @@
         [SerializeField] protected Note m_Note;
         [Tooltip("The event when the note is activated.")]
         [SerializeField] protected UnityEvent m_OnNoteActivate;
-        [Tooltip("The event when the nore is deactivated.")]
+        [Tooltip("The event when the note is deactivated.")]
         [SerializeField] protected UnityEvent m_OnNoteDeactivate;
         [Tooltip("The event when the note is triggered.")]
         [SerializeField] protected UnityEvent m_OnNoteTriggered;

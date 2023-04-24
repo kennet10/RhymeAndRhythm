@@ -223,7 +223,6 @@ namespace Dypsloom.RhythmTimeline.Core.Notes
 			if (m_SetActiveWhileClipActive != null) {
 				m_SetActiveWhileClipActive.SetActive(false);
 			}
-
 			InvokeOnDeactivate();
 		}
 		
@@ -256,6 +255,7 @@ namespace Dypsloom.RhythmTimeline.Core.Notes
 		{
 			m_NoteTriggerEventData.SetMiss();
 			InvokeNoteTriggerEvent();
+			gameObject.SetActive(false);
 		}
 	
 		/// <summary>
