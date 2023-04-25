@@ -1,0 +1,22 @@
+Score = BaseScore + BonusScore
+
+BaseScore = (MaxScore * 0.5 / TotalNotes) * (HitValue / 320)
+
+BonusScore = (MaxScore * 0.5 / TotalNotes) * (HitBonusValue * Sqrt(Bonus) / 320)
+
+Bonus = Bonus before this hit + HitBonus - HitPunishment
+Bonus is limited to [0, 100], initially 100.
+
+MaxScore = 1 000 000
+
+Judgement  HitValue  HitBonusValue  HitBonus  HitPunishment
+   MAX       320          32            2
+   300       300          32            1
+   200       200          16                        8
+   100       100           8                       24
+    50        50           4                       44
+  Miss         0           0                        ¡Ä
+
+
+NOTE:
+HitValue is referred to as "score" in the score settings.

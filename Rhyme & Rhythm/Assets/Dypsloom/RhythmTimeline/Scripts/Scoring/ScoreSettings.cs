@@ -14,6 +14,12 @@ namespace Dypsloom.RhythmTimeline.Scoring
     using UnityEngine.Serialization;
 
     [System.Serializable]
+    public class totalPoints
+    {
+        public float totalScore;
+    }
+
+    [System.Serializable]
     public class NoteAccuracy
     {
         public string name;
@@ -21,6 +27,11 @@ namespace Dypsloom.RhythmTimeline.Scoring
         public bool breakChain;
         public float percentageTheshold;
         public float score;
+
+        public float hitBonusValue;
+        public float hitBonus;
+        public float hitPunishment;
+
         public Sprite icon;
         public GameObject popPrefab;
     }
@@ -36,6 +47,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
     [CreateAssetMenu(fileName = "My Score Setting", menuName = "Dypsloom/Rhythm Timeline/Score Setting", order = 1)]
     public class ScoreSettings : ScriptableObject
     {
+
         [Tooltip("The accuracy table.")]
         [SerializeField] protected NoteAccuracy[] m_AccuracyTable;
         [Tooltip("The rank table.")]
