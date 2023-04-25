@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 527965843}
   - component: {fileID: 527965842}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: score_display
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1256,7 +1256,7 @@ GameObject:
   - component: {fileID: 1465014199}
   - component: {fileID: 1465014198}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: chain_display
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
