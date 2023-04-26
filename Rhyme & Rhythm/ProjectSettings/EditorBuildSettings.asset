@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Song Selection.unity
+    guid: b5da67a3da26a43478964c2f1767eb00
+  - enabled: 1
+    path: Assets/Scenes/Fly Me to the Moon/(Easy) Fly Me to the Moon.unity
+    guid: 4894154916b155d4285657410306a615
+  - enabled: 1
     path: Assets/Scenes/Fur Elise/Fur Elise - Easy.unity
     guid: c36e6e00ffa9f324ba739b4f7739313e
   m_configObjects: {}
