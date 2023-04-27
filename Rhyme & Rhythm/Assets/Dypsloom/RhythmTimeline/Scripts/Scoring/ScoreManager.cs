@@ -57,18 +57,31 @@ namespace Dypsloom.RhythmTimeline.Scoring
         public ScoreSettings ScoreSettings => m_ScoreSettings;
         public RhythmTimelineAsset CurrentSong => m_CurrentSong;
 
+
+        // score setup
+        private float m_BaseScore;
+        private float m_BonusScore;
+        private float m_Bonus;
+        private float m_MaxScore;
+        
+        
+
+
         protected void Awake()
         {
             m_Instance = this;
             Toolbox.Set(this);
+
+
         }
 
         private void Start()
         {
+
             if (m_RhythmDirector == null) {
                 m_RhythmDirector = Toolbox.Get<RhythmDirector>();
             }
-            
+
             UpdateScoreVisual();
             m_RhythmDirector.OnSongPlay += HandleOnSongPlay;
             m_RhythmDirector.OnSongEnd += HandleOnSongEnd;
@@ -77,6 +90,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
             if (m_RhythmDirector.IsPlaying) {
                 HandleOnSongPlay();
             }
+            
         }
 
         private void HandleOnNoteTriggerEvent(NoteTriggerEventData noteTriggerEventData)
@@ -105,10 +119,20 @@ namespace Dypsloom.RhythmTimeline.Scoring
 
         public void SetSong(RhythmTimelineAsset song)
         {
+            // pre-game score setup
+            m_MaxScore = 1_000_000;
+            m_Bonus = 100;
+
+            Debug.Log("m_MaxScore set to 1,000,000\n m_Bonus set to 100");
+
+
             m_CurrentSong = song;
             m_CurrentScore = m_CurrentSong.StartScore;
 
-            m_CurrentMaxPossibleScore = m_CurrentSong.MaxScore;
+            // change max score
+            //m_CurrentMaxPossibleScore = m_CurrentSong.MaxScore;
+            m_CurrentMaxPossibleScore = m_MaxScore;
+
             if (m_CurrentMaxPossibleScore < 0) {
                 m_CurrentMaxPossibleScore = song.RhythmClipCount * m_ScoreSettings.MaxNoteScore;
             }
@@ -203,6 +227,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
 
         public virtual void AddScore(float score)
         {
+
             if (score < 0) {
                 m_CurrentScore += score;
             } else {
