@@ -17,5 +17,10 @@ namespace Dypsloom.RhythmTimeline.SceneManagement
         {
             SceneManager.LoadSceneAsync(buildIndex);
         }
+
+        public void SetBuildIndex(int buildIndex)
+        {
+            m_SceneBuildIndex = buildIndex;
+        }
     }
 }
