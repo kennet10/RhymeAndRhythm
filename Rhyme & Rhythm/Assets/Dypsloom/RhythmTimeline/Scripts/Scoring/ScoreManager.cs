@@ -152,8 +152,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
                 SetSong(song);
             }
             
-            var newScore = new ScoreData(m_CurrentAccuracyIDHistogram.ToArray(), m_CurrentScore, m_CurrentMaxChain,
-                m_ScoreSettings, song);
+            var newScore = new ScoreData(m_CurrentAccuracyIDHistogram.ToArray(), m_CurrentScore, m_CurrentMaxChain, m_ScoreSettings, song);
 
             if (newScore.FullScore > song.HighScore.FullScore) {
                 song.SetHighScore(newScore);

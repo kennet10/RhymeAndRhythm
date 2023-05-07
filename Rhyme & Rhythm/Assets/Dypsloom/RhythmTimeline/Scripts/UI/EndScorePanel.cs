@@ -25,11 +25,12 @@ namespace Dypsloom.RhythmTimeline.UI
 
         private void Awake()
         {
-            m_NextButton.onClick.AddListener(Next);
+            //m_NextButton.onClick.AddListener(Next);
         }
 
         public void Open(RhythmGameManager gameManager)
         {
+            Debug.Log("here");
             m_RhythmGameManager = gameManager;
             gameObject.SetActive(true);
 
@@ -38,10 +39,12 @@ namespace Dypsloom.RhythmTimeline.UI
                 Debug.LogWarning("Score Manager not found in Toolbox.",gameObject);
                 return;
             }
-            var newScore = scoreManager.GetScoreData();
-            var highScore = m_RhythmGameManager.SelectedSong.HighScore;
 
-            UpdateVisual(newScore,highScore);
+
+            //var newScore = scoreManager.GetScoreData();
+            //var highScore = m_RhythmGameManager.SelectedSong.HighScore;
+
+            //UpdateVisual(newScore,highScore);
         }
 
         private void UpdateVisual(ScoreData score, ScoreData highScore)

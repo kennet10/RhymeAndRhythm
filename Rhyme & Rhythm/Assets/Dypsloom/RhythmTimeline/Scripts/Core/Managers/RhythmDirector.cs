@@ -132,6 +132,7 @@ namespace Dypsloom.RhythmTimeline.Core.Managers
             m_DspSongStartTime = DspTime.AdaptiveTime;
             m_IsPlaying = true;
             
+            
             OnSongPlay?.Invoke();
         }
 
