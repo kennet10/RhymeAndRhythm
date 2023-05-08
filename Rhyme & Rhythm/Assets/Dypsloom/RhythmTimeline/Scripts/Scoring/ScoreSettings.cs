@@ -23,6 +23,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
     public class NoteAccuracy
     {
         public string name;
+        public string scoreOrder;
         public bool miss;
         public bool breakChain;
         public float percentageTheshold;
@@ -103,7 +104,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
         {
             //Note Accuracy
             Array.Sort(m_AccuracyTable, new Comparison<NoteAccuracy>( 
-                (x, y) => x.miss ? 1 : y.miss ? -1 : x.percentageTheshold.CompareTo(y.percentageTheshold))); 
+                (x, y) => x.miss ? 1 : y.miss ? -1 : x.scoreOrder.CompareTo(y.scoreOrder))); 
         
             m_AccuracyDictionary = new Dictionary<string, NoteAccuracy>();
             for (int i = 0; i < m_AccuracyTable.Length; i++) {
