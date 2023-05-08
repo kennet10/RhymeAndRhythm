@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AccuracyTable:
   - name: 320
+    scoreOrder: 1
     miss: 0
     breakChain: 0
-    percentageTheshold: 20
+    percentageTheshold: 15
     score: 320
     hitBonusValue: 32
     hitBonus: 2
@@ -24,6 +25,7 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 8535c62f58f63f74eaafa0aaf5ed413a, type: 3}
     popPrefab: {fileID: 1310667963137135126, guid: 3c95827e34955244db6696e8adf01992, type: 3}
   - name: 300
+    scoreOrder: 2
     miss: 0
     breakChain: 0
     percentageTheshold: 25
@@ -34,6 +36,7 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 794a671d95fb69f47a17a237d89d3d05, type: 3}
     popPrefab: {fileID: 2380694533399180753, guid: 5f77a2feb03f39446819ec106ed2f4e9, type: 3}
   - name: 200
+    scoreOrder: 3
     miss: 0
     breakChain: 0
     percentageTheshold: 25
@@ -44,9 +47,10 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: d9156c68798473b4495eef7f958a689e, type: 3}
     popPrefab: {fileID: 1302585757962245411, guid: 92f183fa907b8954a9516588cde49b7b, type: 3}
   - name: 100
+    scoreOrder: 4
     miss: 0
     breakChain: 0
-    percentageTheshold: 15
+    percentageTheshold: 20
     score: 100
     hitBonusValue: 8
     hitBonus: 0
@@ -54,6 +58,7 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 9656de81f7b8c2f4ea86326526e96eb6, type: 3}
     popPrefab: {fileID: 6094500283735996323, guid: 81f4ca18102962e4e9af8acfd7e00da6, type: 3}
   - name: 50
+    scoreOrder: 5
     miss: 0
     breakChain: 0
     percentageTheshold: 15
@@ -64,6 +69,7 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 9656de81f7b8c2f4ea86326526e96eb6, type: 3}
     popPrefab: {fileID: 6094500283735996323, guid: 81f4ca18102962e4e9af8acfd7e00da6, type: 3}
   - name: Miss
+    scoreOrder: 6
     miss: 1
     breakChain: 1
     percentageTheshold: 0
