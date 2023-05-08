@@ -22,5 +22,15 @@ namespace Dypsloom.RhythmTimeline.SceneManagement
         {
             m_SceneBuildIndex = buildIndex;
         }
+
+        public void ReloadScene()
+        {
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        public void LoadNextScene()
+        {
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }

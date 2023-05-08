@@ -32,5 +32,10 @@ namespace Dypsloom.RhythmTimeline.UI
                 m_AccuracyUi[i].SetAccuracyCount(ScoreManager.Instance.ScoreSettings.OrderedAccuracyTable[i].icon, scoreData.NoteAccuracyIDCounts[i]);
             }
         }
+
+        public void SetScore(string score)
+        {
+            m_ScoreTmp.text = score;
+        }
     }
 }

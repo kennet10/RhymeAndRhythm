@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fly Me to the Moon/(Hard) Fly me to the Moon.unity
     guid: 1b4f48ac97b48554383c02ce3f1c1cf6
+  - enabled: 1
+    path: Assets/Scenes/Story Selection.unity
+    guid: 2fe53a6c0a7154245806f4ddc017bf11
+  - enabled: 1
+    path: Assets/Scenes/Story1.unity
+    guid: ab8e6581f084f5947a0f8e32645e8ced
   m_configObjects: {}

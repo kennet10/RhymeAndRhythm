@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 656600879368528077}
   - component: {fileID: 3954410844114012148}
   - component: {fileID: 3463860707911455419}
-  - component: {fileID: 592454170}
+  - component: {fileID: 592454177}
+  - component: {fileID: 592454178}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -105,7 +106,7 @@ MonoBehaviour:
   m_ChainTmp: {fileID: 0}
   m_RankSlider: {fileID: 0}
   m_AccuracySpawnPoint: {fileID: 0}
---- !u!114 &592454170
+--- !u!114 &592454177
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,18 +115,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 3954410844114012158}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58e4c6ab10e012040b0899d53a48b770, type: 3}
+  m_Script: {fileID: 11500000, guid: 41aa306dd7f6eb64391843db462c92ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Songs: []
-  m_GameplayPanel: {fileID: 0}
-  m_SongChooser: {fileID: 0}
-  m_EndScorePanel: {fileID: 0}
-  m_PauseMenu: {fileID: 0}
-  m_WelcomeMenu: {fileID: 0}
-  m_RhythmDirector: {fileID: 0}
-  m_TimerTmp: {fileID: 0}
-  m_PauseButton: {fileID: 0}
-  m_ResumeButton: {fileID: 0}
-  m_EndSongButton: {fileID: 0}
-  m_QuitButton: {fileID: 0}
+  m_SceneBuildIndex: 0
+--- !u!114 &592454178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3954410844114012158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47857011d0e486b4ea27687db935fd60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlayableDirector: {fileID: 0}
+  m_ScorePanel: {fileID: 0}
+  m_ScoreText: {fileID: 0}
+  m_ScoreDisplay: {fileID: 0}
