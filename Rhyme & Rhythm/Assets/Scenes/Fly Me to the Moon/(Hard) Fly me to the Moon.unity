@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5292304352738902875, guid: 53ea1dcbccea83a418e4e082fed82cd2, type: 3}
+      propertyPath: playableDirector
+      value: 
+      objectReference: {fileID: 1944758934}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53ea1dcbccea83a418e4e082fed82cd2, type: 3}
 --- !u!114 &360604000 stripped
@@ -200,6 +204,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &360604002 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5292304352738902875, guid: 53ea1dcbccea83a418e4e082fed82cd2, type: 3}
+  m_PrefabInstance: {fileID: 360603999}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 843b74cdd61c46f449e5948681a64d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1208704003
@@ -561,6 +576,10 @@ PrefabInstance:
       propertyPath: m_RhythmDirector
       value: 
       objectReference: {fileID: 1944758933}
+    - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_noteCounterManager
+      value: 
+      objectReference: {fileID: 360604002}
     - target: {fileID: 3954410844114012144, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_RootOrder
       value: 3

@@ -459,6 +459,10 @@ PrefabInstance:
       propertyPath: m_ScoreTmp
       value: 
       objectReference: {fileID: 1203752448}
+    - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_noteCounterManager
+      value: 
+      objectReference: {fileID: 1729557991}
     - target: {fileID: 3954410844114012144, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1437,6 +1441,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1729557991 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7554185413113605736, guid: 53ea1dcbccea83a418e4e082fed82cd2, type: 3}
+  m_PrefabInstance: {fileID: 1729557988}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 843b74cdd61c46f449e5948681a64d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1780864181

@@ -76,7 +76,7 @@ MonoBehaviour:
     score: 0
     hitBonusValue: 0
     hitBonus: 0
-    hitPunishment: 999
+    hitPunishment: 100
     icon: {fileID: 21300000, guid: 456ec381f0138c747a98bdab948e00a7, type: 3}
     popPrefab: {fileID: 4555798384473535493, guid: 45e1bd912bed3d745b139084d243c322, type: 3}
   m_RankTable:

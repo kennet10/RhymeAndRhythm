@@ -100,12 +100,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RhythmDirector: {fileID: 0}
-  m_ScoreSettings: {fileID: 11400000, guid: bd95dfb2b21599c44a8f54142fca3d9b, type: 2}
+  m_ScoreSettings: {fileID: 11400000, guid: 0443e10a14f9be643bf6277b7ec39ba7, type: 2}
   m_ScoreTmp: {fileID: 0}
   m_ScoreMultiplierTmp: {fileID: 0}
   m_ChainTmp: {fileID: 0}
   m_RankSlider: {fileID: 0}
   m_AccuracySpawnPoint: {fileID: 0}
+  m_noteCounterManager: {fileID: 0}
+  bonusScoreEnable: 1
 --- !u!114 &592454177
 MonoBehaviour:
   m_ObjectHideFlags: 0
