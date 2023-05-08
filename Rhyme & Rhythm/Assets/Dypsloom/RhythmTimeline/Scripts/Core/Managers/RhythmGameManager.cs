@@ -61,7 +61,7 @@ namespace Dypsloom.RhythmTimeline.Core.Managers
 
         private void Start()
         {
-            OpenSongChooser();
+            //OpenSongChooser();
             m_RhythmDirector.OnSongEnd += OnSongEnd;
             if (m_PauseButton != null) {
                 m_PauseButton.onClick.AddListener(TogglePause);
@@ -102,6 +102,7 @@ namespace Dypsloom.RhythmTimeline.Core.Managers
     
         public void OnSongEnd()
         {
+            Debug.Log("here");
             m_IsPlaying = false;
             if(Application.isPlaying == false){ return; }
 
@@ -110,7 +111,8 @@ namespace Dypsloom.RhythmTimeline.Core.Managers
             }
 
             var scoreManager = Toolbox.Get<ScoreManager>();
-            if (scoreManager != null) {
+            if (scoreManager != null)
+            {
                 scoreManager.OnSongEnd(SelectedSong);
             }
 
