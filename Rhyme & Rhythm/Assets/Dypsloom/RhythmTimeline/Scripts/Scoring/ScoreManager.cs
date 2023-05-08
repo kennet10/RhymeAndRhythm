@@ -69,6 +69,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
         private float m_BaseScore;
         private float m_BonusScore;
         private float m_Bonus;
+        private float m_MaxHitValue;
         private float m_MaxScore;
         
         
@@ -128,7 +129,9 @@ namespace Dypsloom.RhythmTimeline.Scoring
         {
             // pre-game score setup
             m_MaxScore = 1_000_000;
+            m_MaxHitValue = 320;
             m_Bonus = 100;
+
 
             Debug.Log("m_MaxScore set to 1,000,000\n m_Bonus set to 100");
             Debug.Log("---");
@@ -234,7 +237,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
                 OnContinueChain?.Invoke(m_CurrentChain);
             }
             
-            float tempScore = (m_MaxScore / m_numOfNote) * (noteAccuracy.score / 320);
+            float tempScore = (m_MaxScore / m_numOfNote) * (noteAccuracy.score / m_MaxHitValue);
 
             //AddScore(noteAccuracy.score);
             AddScore(tempScore);
@@ -330,7 +333,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
         public void UpdateScoreVisual()
         {
             if (m_ScoreTmp != null) {
-                m_ScoreTmp.text = m_CurrentScore.ToString();
+                m_ScoreTmp.text = Mathf.Floor(m_CurrentScore).ToString();
             }
             if (m_ScoreMultiplierTmp != null) {
                 m_ScoreMultiplierTmp.text = m_ScoreMultiplier == 1 ? "" : $"X{m_ScoreMultiplier}";
