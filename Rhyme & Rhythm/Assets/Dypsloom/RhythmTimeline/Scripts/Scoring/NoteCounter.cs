@@ -12,11 +12,40 @@ public class NoteCounter : MonoBehaviour
     private void Start()
     {
         int clipCount = CountClips(playableDirector);
-        Debug.Log("Total Clips (Notes): " + clipCount);
+        int noteCount = CountNotes();
+        Debug.Log("NoteCounter (Notes): " + clipCount);
+    }
+
+    public void NoteCounterTest()
+    {
+        Debug.Log("from NoteCounter script");
     }
 
     public int CountClips(PlayableDirector director)
     {
+        if (director == null)
+        {
+            return 0;
+        }
+
+        TimelineAsset timeline = director.playableAsset as TimelineAsset;
+        if (timeline == null)
+        {
+            return 0;
+        }
+
+        int clipCounter = 0;
+        foreach (var track in timeline.GetOutputTracks())
+        {
+            clipCounter += track.GetClips().Count();
+        }
+
+        return clipCounter;
+    }
+
+    public int CountNotes()
+    {
+        PlayableDirector director = playableDirector;
         if (director == null)
         {
             return 0;

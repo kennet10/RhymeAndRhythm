@@ -17,6 +17,10 @@ namespace Dypsloom.RhythmTimeline.Scoring
     using System.Collections.Generic;
     using UnityEngine;
 
+    using UnityEngine.Playables;
+    using UnityEngine.Timeline;
+    using System.Linq;
+
     public class ScoreManager : MonoBehaviour
     {
         public event Action<RhythmTimelineAsset> OnNewHighScore;
@@ -59,6 +63,9 @@ namespace Dypsloom.RhythmTimeline.Scoring
 
 
         // score setup
+        //public PlayableDirector playableDirector;
+        [SerializeField] NoteCounter m_noteCounterManager   ;
+        private int m_numOfNote;
         private float m_BaseScore;
         private float m_BonusScore;
         private float m_Bonus;
@@ -124,14 +131,25 @@ namespace Dypsloom.RhythmTimeline.Scoring
             m_Bonus = 100;
 
             Debug.Log("m_MaxScore set to 1,000,000\n m_Bonus set to 100");
+            Debug.Log("---");
+
+            
 
 
             m_CurrentSong = song;
             m_CurrentScore = m_CurrentSong.StartScore;
 
             // change max score
-            //m_CurrentMaxPossibleScore = m_CurrentSong.MaxScore;
             m_CurrentMaxPossibleScore = m_MaxScore;
+
+            //m_noteCounterManager.NoteCounterTest();
+            //m_CurrentMaxPossibleScore = m_CurrentSong.MaxScore;
+
+            // get total # of notes
+            m_numOfNote = m_noteCounterManager.CountNotes();
+            Debug.Log("ScoreManager: numOfNotes = " + m_numOfNote);
+            
+            
 
             if (m_CurrentMaxPossibleScore < 0) {
                 m_CurrentMaxPossibleScore = song.RhythmClipCount * m_ScoreSettings.MaxNoteScore;
@@ -216,7 +234,10 @@ namespace Dypsloom.RhythmTimeline.Scoring
                 OnContinueChain?.Invoke(m_CurrentChain);
             }
             
-            AddScore(noteAccuracy.score);
+            float tempScore = (m_MaxScore / m_numOfNote) * (noteAccuracy.score / 320);
+
+            //AddScore(noteAccuracy.score);
+            AddScore(tempScore);
             OnNoteScore?.Invoke(note,noteAccuracy);
 
             if (m_CurrentSong == null) { return; }
