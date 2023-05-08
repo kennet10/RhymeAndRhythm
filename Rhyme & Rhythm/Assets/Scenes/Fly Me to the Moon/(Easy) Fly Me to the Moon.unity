@@ -749,13 +749,33 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 487997424}
     - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: bonusEnable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_noteCounter
+      value: 
+      objectReference: {fileID: 2105824826}
+    - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_ScoreSettings
       value: 
       objectReference: {fileID: 11400000, guid: 0443e10a14f9be643bf6277b7ec39ba7, type: 2}
     - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: bonusScoreEnable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_RhythmDirector
       value: 
       objectReference: {fileID: 1127367179}
+    - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: playableDirector
+      value: 
+      objectReference: {fileID: 1995135300}
+    - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_noteCounterManager
+      value: 
+      objectReference: {fileID: 2105824826}
     - target: {fileID: 3954410844114012144, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2316,7 +2336,7 @@ GameObject:
   - component: {fileID: 2105824827}
   - component: {fileID: 2105824826}
   m_Layer: 0
-  m_Name: DEBUGGER
+  m_Name: NoteCounterManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2329,7 +2349,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105824825}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 843b74cdd61c46f449e5948681a64d7c, type: 3}
   m_Name: 

@@ -249,25 +249,22 @@ namespace Dypsloom.RhythmTimeline.Scoring
                 OnContinueChain?.Invoke(m_CurrentChain);
             }
             
-            float tempHitValue = noteAccuracy.score;
-            float tempHitBonusValue = noteAccuracy.hitBonusValue;
-            float tempHitPunishment = noteAccuracy.hitPunishment;
 
             // base score = = (MaxScore * 0.5 / TotalNotes) * (HitValue / 320)
-            // 0.5 if bonus enabled, 1.0 if bonus disabled
+            // 0.5 if bonus enabled, 1.0 if bonus disabled // score = hitValue
             float tempScore = (m_MaxScore * m_bonusOffset / m_TotalNotes) 
-                            * (tempHitValue / m_MaxHitValue);
+                            * (noteAccuracy.score / m_MaxHitValue);
 
             // bonus score = (MaxScore * 0.5 / TotalNotes) * (HitBonusValue * Sqrt(Bonus) / 320)
             float tempScore2 = 0f;
             if (bonusScoreEnable)
             {
                 tempScore2 = (m_MaxScore * m_bonusOffset / m_TotalNotes) 
-                            * (tempHitBonusValue * Mathf.Sqrt(m_Bonus) / m_MaxHitValue);
+                            * (noteAccuracy.hitBonusValue * Mathf.Sqrt(m_Bonus) / m_MaxHitValue);
             }
 
             // adjust bonus
-            m_Bonus = m_Bonus + tempHitBonusValue - tempHitPunishment;
+            m_Bonus = m_Bonus + noteAccuracy.hitBonus - noteAccuracy.hitPunishment;
             if (m_Bonus < 0)
             {
                 m_Bonus = 0f;

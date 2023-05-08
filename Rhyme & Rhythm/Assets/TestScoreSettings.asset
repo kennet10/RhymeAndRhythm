@@ -16,7 +16,7 @@ MonoBehaviour:
   - name: 320
     miss: 0
     breakChain: 0
-    percentageTheshold: 15
+    percentageTheshold: 20
     score: 320
     hitBonusValue: 32
     hitBonus: 2
@@ -26,7 +26,7 @@ MonoBehaviour:
   - name: 300
     miss: 0
     breakChain: 0
-    percentageTheshold: 20
+    percentageTheshold: 25
     score: 300
     hitBonusValue: 32
     hitBonus: 1
@@ -46,7 +46,7 @@ MonoBehaviour:
   - name: 100
     miss: 0
     breakChain: 0
-    percentageTheshold: 25
+    percentageTheshold: 15
     score: 100
     hitBonusValue: 8
     hitBonus: 0
