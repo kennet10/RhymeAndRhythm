@@ -65,12 +65,15 @@ namespace Dypsloom.RhythmTimeline.Scoring
         // score setup
         //public PlayableDirector playableDirector;
         [SerializeField] NoteCounter m_noteCounterManager   ;
-        private int m_numOfNote;
+        private int m_TotalNotes;
         private float m_BaseScore;
         private float m_BonusScore;
         private float m_Bonus;
         private float m_MaxHitValue;
         private float m_MaxScore;
+
+        public bool bonusScoreEnable;
+        private float m_bonusOffset;
         
         
 
@@ -128,9 +131,18 @@ namespace Dypsloom.RhythmTimeline.Scoring
         public void SetSong(RhythmTimelineAsset song)
         {
             // pre-game score setup
-            m_MaxScore = 1_000_000;
-            m_MaxHitValue = 320;
-            m_Bonus = 100;
+            m_MaxScore = 1_000_000f;
+            m_MaxHitValue = 320f;
+            m_Bonus = 100f;
+            m_bonusOffset = 1f;
+
+            if(bonusScoreEnable)
+            {
+                m_bonusOffset = 0.5f;
+            }
+            Debug.Log("Bonus Enabled: " + bonusScoreEnable + "\nBonus Offset: " + m_bonusOffset);
+            
+
 
 
             Debug.Log("m_MaxScore set to 1,000,000\n m_Bonus set to 100");
@@ -149,8 +161,8 @@ namespace Dypsloom.RhythmTimeline.Scoring
             //m_CurrentMaxPossibleScore = m_CurrentSong.MaxScore;
 
             // get total # of notes
-            m_numOfNote = m_noteCounterManager.CountNotes();
-            Debug.Log("ScoreManager: numOfNotes = " + m_numOfNote);
+            m_TotalNotes = m_noteCounterManager.CountNotes();
+            Debug.Log("ScoreManager: Total Notes = " + m_TotalNotes);
             
             
 
@@ -237,10 +249,37 @@ namespace Dypsloom.RhythmTimeline.Scoring
                 OnContinueChain?.Invoke(m_CurrentChain);
             }
             
-            float tempScore = (m_MaxScore / m_numOfNote) * (noteAccuracy.score / m_MaxHitValue);
+            float tempHitValue = noteAccuracy.score;
+            float tempHitBonusValue = noteAccuracy.hitBonusValue;
+            float tempHitPunishment = noteAccuracy.hitPunishment;
+
+            // base score = = (MaxScore * 0.5 / TotalNotes) * (HitValue / 320)
+            // 0.5 if bonus enabled, 1.0 if bonus disabled
+            float tempScore = (m_MaxScore * m_bonusOffset / m_TotalNotes) 
+                            * (tempHitValue / m_MaxHitValue);
+
+            // bonus score = (MaxScore * 0.5 / TotalNotes) * (HitBonusValue * Sqrt(Bonus) / 320)
+            float tempScore2 = 0f;
+            if (bonusScoreEnable)
+            {
+                tempScore2 = (m_MaxScore * m_bonusOffset / m_TotalNotes) 
+                            * (tempHitBonusValue * Mathf.Sqrt(m_Bonus) / m_MaxHitValue);
+            }
+
+            // adjust bonus
+            m_Bonus = m_Bonus + tempHitBonusValue - tempHitPunishment;
+            if (m_Bonus < 0)
+            {
+                m_Bonus = 0f;
+            }
+            else if (m_Bonus > 100)
+            {
+                m_Bonus = 100f;
+            }
+            
 
             //AddScore(noteAccuracy.score);
-            AddScore(tempScore);
+            AddScore(tempScore + tempScore2);
             OnNoteScore?.Invoke(note,noteAccuracy);
 
             if (m_CurrentSong == null) { return; }

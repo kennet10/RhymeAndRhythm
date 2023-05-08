@@ -20,4 +20,3 @@ Judgement  HitValue  HitBonusValue  HitBonus  HitPunishment
 
 NOTE:
 HitValue is referred to as "score" in the score settings.
-BONUS *might* be implement later.
