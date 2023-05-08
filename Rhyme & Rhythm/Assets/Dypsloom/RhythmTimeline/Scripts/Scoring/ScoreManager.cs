@@ -77,11 +77,6 @@ namespace Dypsloom.RhythmTimeline.Scoring
         
         
 
-        private string FormatFloat(float value)
-        {
-            return String.Format("{0:N0}", value);
-        }
-
 
         protected void Awake()
         {
@@ -254,7 +249,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
                 OnContinueChain?.Invoke(m_CurrentChain);
             }
             
-            // for more info on scoring system, refer to "Score System Documentation"
+
             // base score = = (MaxScore * 0.5 / TotalNotes) * (HitValue / 320)
             // 0.5 if bonus enabled, 1.0 if bonus disabled // score = hitValue
             float tempScore = (m_MaxScore * m_bonusOffset / m_TotalNotes) 
@@ -374,7 +369,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
         public void UpdateScoreVisual()
         {
             if (m_ScoreTmp != null) {
-                m_ScoreTmp.text = FormatFloat(m_CurrentScore);
+                m_ScoreTmp.text = Mathf.Floor(m_CurrentScore).ToString();
             }
             if (m_ScoreMultiplierTmp != null) {
                 m_ScoreMultiplierTmp.text = m_ScoreMultiplier == 1 ? "" : $"X{m_ScoreMultiplier}";

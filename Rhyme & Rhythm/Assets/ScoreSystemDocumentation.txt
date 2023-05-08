@@ -7,7 +7,7 @@ BonusScore = (MaxScore * 0.5 / TotalNotes) * (HitBonusValue * Sqrt(Bonus) / 320)
 Bonus = Bonus before this hit + HitBonus - HitPunishment
 Bonus is limited to [0, 100], initially 100.
 
-MaxScore = 1_000_000
+MaxScore = 1 000 000
 
 Judgement  HitValue  HitBonusValue  HitBonus  HitPunishment
    MAX       320          32            2
