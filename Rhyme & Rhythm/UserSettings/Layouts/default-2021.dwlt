@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -51,7 +51,7 @@ MonoBehaviour:
   - {fileID: 12}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 61
+  controlID: 48
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 60
+  controlID: 47
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 38
+  controlID: 42
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,10 +297,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 650
-    width: 953
-    height: 295
+    x: 362
+    y: 709
+    width: 946
+    height: 290
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -378,7 +378,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2afbffffac500000
+      m_ExpandedIDs: 6eb0ffffe2b1ffff1cb3ffff30b4ffff0abaffff68bdffffacbdffff7cc1ffff86c2ffff74c6ffffdac6fffff0c8ffff62c9ffffe2d7ffffecd7fffff0d7fffff8d7fffffad7ffff00d8ffff0cd8ffff80d8ffffdad9ffff40daffff4edbffffaedbffff7cdcfffff2ddffff06e1ffffb0e2fffffee2ffff1ae4ffff40e5ffffaae6ffff2ae8ffff42e9ffffbceaffffc8edffff2aeeffffa2efffffcaf0ffffdcf0ffff1cf1ffffccf5ffff7ef8ffff08faffff2afbffffa4510000a65b0000c45b0000e85b0000005c0000045c00001c5c0000c85c00007c5d0000865d0000a05d0000b45d0000086d0000266d0000746d00007e6d0000b66d0000da6d0000106e0000246e0000726e0000766e0000946e0000ec6e0000246f00005a6f00007e6f0000926f00008c700000ae7000003e71000098710000b2710000dc72000056730000b0730000ca73000086780000007a0000767b00009a7b0000087c0000787e00009a7e00005e800000708000009a8000006c8500007e85000094850000a885000030870000428700006c8700006e8f0000f090000002910000189100003691000096920000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -438,7 +438,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 209
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -486,23 +486,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Dypsloom/RhythmTimeline/Scripts/Dialouge
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Dypsloom/RhythmTimeline/Scripts/Dialouge
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\budde\OneDrive\Documents\GitHub\ICS166-Rhythm_Game\Rhyme
     & Rhythm
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 28}
-    m_SelectedIDs: 46510000
-    m_LastClickedID: 20806
-    m_ExpandedIDs: 00000000305100003a510000485100004a51000000ca9a3b
+    scrollPos: {x: 0, y: 98}
+    m_SelectedIDs: 40510000
+    m_LastClickedID: 20800
+    m_ExpandedIDs: 00000000305100003a51000040510000485100004a51000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -960,9 +960,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1091.8384, y: 491.7136, z: 63777.48}
+    m_Target: {x: 1.6829017, y: 1.4537678, z: 208.69157}
     speed: 2
-    m_Value: {x: 1091.8384, y: 491.7136, z: 63777.48}
+    m_Value: {x: 1.6829017, y: 1.4537678, z: 208.69157}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1013,9 +1013,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 714.81433
+    m_Target: 8.783829
     speed: 2
-    m_Value: 714.81433
+    m_Value: 8.783829
   m_Ortho:
     m_Target: 1
     speed: 2
