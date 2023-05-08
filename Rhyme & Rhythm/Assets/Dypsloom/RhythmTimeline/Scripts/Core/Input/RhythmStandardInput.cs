@@ -135,9 +135,9 @@ namespace Dypsloom.RhythmTimeline.Core.Input
         [SerializeField] protected RhythmProcessor m_RhythmProcessor;
         [Tooltip("The Key input for each track.")]
         [SerializeField] protected SimpleInput[] m_TrackInput;
-        [Tooltip("The key code to swipe left.")]
-        [SerializeField] protected HoldInput m_InputHold = new HoldInput();
         [Tooltip("Detect input hold.")]
+        [SerializeField] protected HoldInput[] m_holdInput;
+        [Tooltip("The key code to swipe left.")]
         [SerializeField] protected SimpleInput m_SwipeLeft = new SimpleInput(KeyCode.LeftArrow);
         [Tooltip("The key code to swipe right.")]
         [SerializeField] protected SimpleInput m_SwipeRight = new SimpleInput(KeyCode.RightArrow);
@@ -167,6 +167,7 @@ namespace Dypsloom.RhythmTimeline.Core.Input
         [SerializeField] protected bool m_DisableMouseInputInBuild = false;
 
         protected InputEventData[] m_TrackInputEventData;
+        protected InputEventData[] m_holdInputEventData;
         protected Camera m_Camera;
         protected Dictionary<int, Vector2> m_TouchBeganPosition;
         protected Dictionary<int, Vector2> m_TouchEndedPosition;
@@ -179,6 +180,12 @@ namespace Dypsloom.RhythmTimeline.Core.Input
             m_TrackInputEventData = new InputEventData[m_TrackInput.Length];
             for (int i = 0; i < m_TrackInputEventData.Length; i++) {
                 m_TrackInputEventData[i] = new InputEventData(i, -1);
+            }
+
+            m_holdInputEventData = new InputEventData[m_holdInput.Length];
+            for (int i =0; i < m_holdInputEventData.Length; i++)
+            {
+                m_holdInputEventData[i] = new InputEventData(i, -1);
             }
 
             m_TouchBeganPosition = new Dictionary<int, Vector2>();
@@ -241,10 +248,17 @@ namespace Dypsloom.RhythmTimeline.Core.Input
                     if (m_SwipeRight.GetInputDown()) {
                         TriggerInput(trackInputEventData, 2, Vector2.right);
                     }
-                   if (m_InputHold.GetInput())
-                    {
-                        TriggerInput(trackInputEventData, 3);
-                    }
+                }
+            }
+
+            for (int i = 0; i < m_TrackInput.Length; i++)
+            {
+                var input = m_holdInput[i];
+                var trackInputEventData = m_holdInputEventData[i];
+
+                if (input.GetInput())
+                {
+                    TriggerInput(trackInputEventData, 3);
                 }
             }
         }

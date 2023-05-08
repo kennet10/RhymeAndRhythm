@@ -23,6 +23,8 @@ namespace Dypsloom.RhythmTimeline.Effects
         [SerializeField] protected UnityEvent m_InputPressed;
         [Tooltip("An input was released on that track.")]
         [SerializeField] protected UnityEvent m_InputReleased;
+        [Tooltip("Input is being held on that track.")]
+        [SerializeField] protected UnityEvent m_HoldingInput;
 
         protected RhythmDirector m_RhythmDirector;
     
@@ -54,6 +56,11 @@ namespace Dypsloom.RhythmTimeline.Effects
             
             if (inputEventData.Release) {
                 m_InputReleased.Invoke();
+            }
+
+            if (inputEventData.Hold)
+            {
+                m_HoldingInput.Invoke();
             }
         }
     }
