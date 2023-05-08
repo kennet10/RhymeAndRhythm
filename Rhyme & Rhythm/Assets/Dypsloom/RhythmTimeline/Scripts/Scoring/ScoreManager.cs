@@ -76,6 +76,10 @@ namespace Dypsloom.RhythmTimeline.Scoring
         private float m_bonusOffset;
         
         
+        string FormatFloat(float value)
+        {
+            return String.Format("{0:N0}", value);
+        }
 
 
         protected void Awake()
@@ -369,7 +373,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
         public void UpdateScoreVisual()
         {
             if (m_ScoreTmp != null) {
-                m_ScoreTmp.text = Mathf.Floor(m_CurrentScore).ToString();
+                m_ScoreTmp.text = FormatFloat(m_CurrentScore);
             }
             if (m_ScoreMultiplierTmp != null) {
                 m_ScoreMultiplierTmp.text = m_ScoreMultiplier == 1 ? "" : $"X{m_ScoreMultiplier}";
