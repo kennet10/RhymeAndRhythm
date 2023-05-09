@@ -347,6 +347,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RhythmProcessor: {fileID: 1604570903184279291}
   m_TrackInput:
+  - m_Key: 101
+    m_Button: 
+  - m_Key: 114
+    m_Button: 
+  - m_Key: 117
+    m_Button: 
+  - m_Key: 105
+    m_Button: 
+  - m_Key: 100
+    m_Button: 
+  - m_Key: 102
+    m_Button: 
+  - m_Key: 106
+    m_Button: 
+  - m_Key: 107
+    m_Button: 
+  m_holdInput:
+  - m_Key: 101
+    m_Button: 
+  - m_Key: 114
+    m_Button: 
+  - m_Key: 117
+    m_Button: 
+  - m_Key: 105
+    m_Button: 
   - m_Key: 100
     m_Button: 
   - m_Key: 102
