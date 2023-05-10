@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3954410844114012148}
   - component: {fileID: 3463860707911455419}
   - component: {fileID: 592454177}
-  - component: {fileID: 592454178}
+  - component: {fileID: 592454185}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SceneBuildIndex: 0
---- !u!114 &592454178
+--- !u!114 &592454185
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,12 +130,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3954410844114012158}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47857011d0e486b4ea27687db935fd60, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bcc82444967e0541aacefd132c74144, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_PlayableDirector: {fileID: 0}
-  m_ScorePanel: {fileID: 0}
+  m_ScoreMenu: {fileID: 0}
   m_ScoreText: {fileID: 0}
   m_ComboText: {fileID: 0}
   m_ScoreDisplay: {fileID: 0}
   m_ComboDisplay: {fileID: 0}
+  m_PauseMenu: {fileID: 0}
