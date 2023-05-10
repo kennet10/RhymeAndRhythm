@@ -10,7 +10,9 @@ public class Score : MonoBehaviour
     [SerializeField] protected PlayableDirector m_PlayableDirector;
     [SerializeField] protected GameObject m_ScorePanel;
     [SerializeField] protected TMPro.TextMeshProUGUI m_ScoreText;
+    [SerializeField] protected TMPro.TextMeshProUGUI m_ComboText;
     [SerializeField] protected TMPro.TextMeshProUGUI m_ScoreDisplay;
+    [SerializeField] protected TMPro.TextMeshProUGUI m_ComboDisplay;
 
     // Start is called before the first frame update
     void Awake()
@@ -28,8 +30,12 @@ public class Score : MonoBehaviour
     {
         m_PlayableDirector.Stop();
 
-        m_ScorePanel.SetActive(true);
+        if(m_ScorePanel != null)
+        {
+            m_ScorePanel.SetActive(true);
+        }
 
         m_ScoreText.text = m_ScoreDisplay.text;
+        m_ComboText.text = m_ComboDisplay.text;
     }
 }

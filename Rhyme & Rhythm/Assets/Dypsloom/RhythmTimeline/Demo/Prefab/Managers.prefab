@@ -136,4 +136,6 @@ MonoBehaviour:
   m_PlayableDirector: {fileID: 0}
   m_ScorePanel: {fileID: 0}
   m_ScoreText: {fileID: 0}
+  m_ComboText: {fileID: 0}
   m_ScoreDisplay: {fileID: 0}
+  m_ComboDisplay: {fileID: 0}
