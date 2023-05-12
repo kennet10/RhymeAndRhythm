@@ -32,18 +32,23 @@ public class UIManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (!m_GameIsPaused)
-            {
-                m_PauseMenu.SetActive(true);
-                m_PlayableDirector.Pause();
-                m_GameIsPaused = true;
-            }
-            else
-            {
-                m_PauseMenu.SetActive(false);
-                m_PlayableDirector.Resume();
-                m_GameIsPaused = false;
-            }
+            PauseGame();
+        }
+    }
+
+    public void PauseGame()
+    {
+        if (!m_GameIsPaused)
+        {
+            m_PauseMenu.SetActive(true);
+            m_PlayableDirector.Pause();
+            m_GameIsPaused = true;
+        }
+        else
+        {
+            m_PauseMenu.SetActive(false);
+            m_PlayableDirector.Resume();
+            m_GameIsPaused = false;
         }
     }
 

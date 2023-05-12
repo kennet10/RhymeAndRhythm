@@ -1030,9 +1030,9 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 2.375
+    m_Start: 2
     m_ClipIn: 0
-    m_Asset: {fileID: 8099275813044829337}
+    m_Asset: {fileID: -3399143761262857862}
     m_Duration: 0.375
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7570989362611370030}
@@ -3930,6 +3930,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 121.6875
   m_ID: 1
+--- !u!114 &-3399143761262857862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfa41e5e51d007546bb3d3ad7cdb93ca, type: 3}
+  m_Name: RhythmClip
+  m_EditorClassIdentifier: 
+  m_RhythmPlayableBehaviour:
+    m_NoteDefinition: {fileID: 11400000, guid: 206b40c920a39ab4db521f6de114d1b1, type: 2}
+  m_ClipParameters:
+    m_IntParameter: 0
+    m_StringParameter: 
+    m_FloatParameter: 0
+    m_ObjectReferenceParameter: {fileID: 0}
 --- !u!114 &-3365709328748488981
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5257,7 +5276,76 @@ MonoBehaviour:
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children: []
-  m_Clips: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 3
+    m_ClipIn: 0
+    m_Asset: {fileID: -471800429606235607}
+    m_Duration: 5
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -1016608438821187972}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: "\u2001"
   m_Markers:
     m_Objects: []
   m_ID: 4
@@ -5611,6 +5699,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 77.0625
   m_ID: 1
+--- !u!114 &-471800429606235607
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfa41e5e51d007546bb3d3ad7cdb93ca, type: 3}
+  m_Name: RhythmClip
+  m_EditorClassIdentifier: 
+  m_RhythmPlayableBehaviour:
+    m_NoteDefinition: {fileID: 11400000, guid: d2383da49d49ae241bec9123b73f9659, type: 2}
+  m_ClipParameters:
+    m_IntParameter: 0
+    m_StringParameter: 
+    m_FloatParameter: 0
+    m_ObjectReferenceParameter: {fileID: 0}
 --- !u!114 &-465465637163526201
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5949,9 +6056,9 @@ MonoBehaviour:
   m_PreventMaxScoreOvershoot: 0
   m_PreventMinScoreOvershoot: 0
   m_HighScore:
-    m_NoteAccuracyIDHistogram: 0000000000000000
-    m_FullScore: 666666.7
-    m_MaxChain: 2
+    m_NoteAccuracyIDHistogram: 000000000000000000000000
+    m_FullScore: 750000
+    m_MaxChain: 3
 --- !u!114 &23854353472323362
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10865,25 +10972,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 59.25
   m_ID: 0
---- !u!114 &8099275813044829337
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfa41e5e51d007546bb3d3ad7cdb93ca, type: 3}
-  m_Name: RhythmClip(Clone)
-  m_EditorClassIdentifier: 
-  m_RhythmPlayableBehaviour:
-    m_NoteDefinition: {fileID: 11400000, guid: edcf9195d81d52a44b719f253fadd79a, type: 2}
-  m_ClipParameters:
-    m_IntParameter: 0
-    m_StringParameter: 
-    m_FloatParameter: 0
-    m_ObjectReferenceParameter: {fileID: 0}
 --- !u!114 &8118188204893863393
 MonoBehaviour:
   m_ObjectHideFlags: 1
