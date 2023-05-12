@@ -385,9 +385,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 2135435197}
   lines:
-  - This is an example of the story script CLICK TO CONTINUE
-  - CLICK NOW OR YOULL BE HERE FOREVER aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-  - oki bye
+  - "Year 2727. It is about time for me to take on the most important mission ever\u2013a
+    mission that can change the course of humanity as is. If I get involved too much,
+    it can bend history in any direction which is not something I want to happen.  
+    The mission? To go back in time and recover the music that is lost today.  "
+  - 'Eight months ago, a huge arson occurred in the Nidavellir Music Library, the
+    home to all the existing music from the last millennium. While the arsonists
+    responsible for the fire were found and arrested a few days later, the building
+    was burned down to the ground and all the music pieces and recordings along with
+    it.   I don''t care why the government chooses to have all recordings of music
+    be stored in one place instead of spreading them to museums, but because of that
+    poorly thought-out decision, the world is at risk of losing and forgetting all
+    media of music. '
+  - I don't care why the government chooses to have all recordings of music be stored
+    in one place instead of spreading them to museums, but because of that poorly
+    thought-out decision, the world is at risk of losing and forgetting all media
+    of music.
+  - Thus, the Time-Space Music Recovery Department was formed as a measure to recover
+    the music before it was too late. I am essentially the lead researcher of the
+    department, having made significant contributions to the invention of the time
+    machine and pinpointing the time period that made the most sense in terms of
+    recovery, given our time frame.
+  - "To be brutally honest, due to how quickly the machine was built, it was possible
+    to get the recovery underway within three months of the start of the project.
+    However, since the department is a government secret, it did not have the luxury
+    of recruiting civilian testers, and other government officials could not test
+    out due to their workload. The project\u2019s progress was suddenly halted as
+    there was no efficient way for the department to perfectly ensure that the machine
+    would not cause side effects."
+  - "I don\u2019t know what the money-grubbing higher-ups were thinking, but as someone
+    who also enjoys listening to music on the way to work, this project cannot fail."
+  - "With that established, let\u2019s return to the present. The department has
+    ensured that most of the potential issues are fixed, but everyone, including
+    me, can\u2019t shake off the bad premonition.  However, we risk losing everything
+    the longer we delay the expedition, so as the lead researcher, I chose to be
+    the person who will recover the lost music. "
+  - I would be lying if I said that I have no ulterior motives for doing so, given
+    my status. Not only will I get to slack off from working in a stuffy environment
+    for a while, I also get to listen to music straight from the artists themselves.
+    There was nothing more that I could have asked for.
+  - 'Anyways, with all the teary goodbyes and promises to return in triumph, I hop
+    on to the machine, heading towards the first destination: 1795, where Ludwig
+    van Beethoven performed his first live piano performance.'
   textSpeed: 0.03
 --- !u!1 &1417232589
 GameObject:
@@ -611,8 +650,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

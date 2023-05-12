@@ -1,0 +1,1 @@
+{"root":[{"assemblyName":"Dypsloom.Shared","nameSpace":"Dypsloom.Shared","className":"Toolbox","methodName":"InitializeOnLoadMethod","loadTypes":4,"isUnityClass":false},{"assemblyName":"Unity.2D.Animation.Runtime","nameSpace":"","className":"$BurstDirectCallInitializer","methodName":"Initialize","loadTypes":2,"isUnityClass":true}]}

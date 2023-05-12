@@ -10,12 +10,6 @@ namespace Dypsloom.RhythmTimeline.Core.Notes
             base.Initialize(rhythmClipData);
         }
 
-        protected override void Update()
-        {
-            base.Update();
-
-        }
-
         public override void Reset()
         {
             base.Reset();
@@ -38,24 +32,28 @@ namespace Dypsloom.RhythmTimeline.Core.Notes
         }
         public override void OnTriggerInput(InputEventData inputEventData)
         {
-            var targetPosition = m_RhythmClipData.TrackObject.EndPoint.position.y;
-            var currentPosition = RhythmClipData.TrackObject.transform.position.y;
             //Since this is a tap note, only deal with tap inputs.
-            if (!inputEventData.Hold) { return; }
+            if (!inputEventData.Hold)
+            {
+                return;
+            }
 
-            //The gameobject can be set to active false. It is returned to the pool automatically when reset.
-            gameObject.SetActive(false);
-            m_IsTriggered = true;
+            else if (inputEventData.Hold)
+            {
+                //The gameobject can be set to active false. It is returned to the pool automatically when reset.
+                gameObject.SetActive(false);
+                m_IsTriggered = true;
 
-            //You may compute the perfect time anyway you want.
-            //In this case the perfect time is half of the clip.
-            var perfectTime = m_RhythmClipData.RealDuration / 2f;
-            var timeDifference = TimeFromActivate - perfectTime;
-            var timeDifferencePercentage = Mathf.Abs((float)(100f * timeDifference)) / perfectTime;
+                //You may compute the perfect time anyway you want.
+                //In this case the perfect time is half of the clip.
+                var perfectTime = m_RhythmClipData.RealDuration / 2f;
+                var timeDifference = TimeFromActivate;
+                var timeDifferencePercentage = Mathf.Abs((float)(100f * timeDifference)) / perfectTime;
 
-            //Send a trigger event such that the score system can listen to it.
-            InvokeNoteTriggerEvent(inputEventData, timeDifference, (float)timeDifferencePercentage);
-            RhythmClipData.TrackObject.RemoveActiveNote(this);
+                //Send a trigger event such that the score system can listen to it.
+                InvokeNoteTriggerEvent(inputEventData, timeDifference, (float)timeDifferencePercentage);
+                RhythmClipData.TrackObject.RemoveActiveNote(this);
+            }
         }
         protected override void HybridUpdate(double timeFromStart, double timeFromEnd)
         {
