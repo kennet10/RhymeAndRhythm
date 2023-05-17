@@ -1804,6 +1804,14 @@ PrefabInstance:
       propertyPath: m_text
       value: N/A
       objectReference: {fileID: 0}
+    - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 473
+      objectReference: {fileID: 0}
     - target: {fileID: 9207628466300392852, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_Controller
       value: 
