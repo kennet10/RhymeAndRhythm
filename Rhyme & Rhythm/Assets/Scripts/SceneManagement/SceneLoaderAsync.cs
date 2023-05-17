@@ -33,7 +33,7 @@ namespace Dypsloom.RhythmTimeline.SceneManagement
 
         public void ReloadScene()
         {
-            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+            StartCoroutine("ReloadSceneWithTransition");
         }
 
         public void LoadNextScene()
@@ -48,6 +48,15 @@ namespace Dypsloom.RhythmTimeline.SceneManagement
             yield return new WaitForSeconds(1f);
 
             LoadSceneAsync();
+        }
+
+        private IEnumerator ReloadSceneWithTransition()
+        {
+            sceneTransitionAnimator.SetTrigger("Reload");
+
+            yield return new WaitForSeconds(1f);
+
+            LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
