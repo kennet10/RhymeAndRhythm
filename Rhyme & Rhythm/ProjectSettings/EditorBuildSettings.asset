@@ -27,6 +27,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Fly Me to the Moon/(Hard) Fly me to the Moon.unity
     guid: 1b4f48ac97b48554383c02ce3f1c1cf6
   - enabled: 1
+    path: Assets/Scenes/Don't Stop Me Now/(Easy) Don't Stop Me Now.unity
+    guid: 2d941885c1b783244bbbed8f47fbe483
+  - enabled: 1
+    path: Assets/Scenes/Don't Stop Me Now/(Normal) Don't Stop Me Now.unity
+    guid: 95b0b9fb6c93081468954f9bf51bbcae
+  - enabled: 1
+    path: Assets/Scenes/Don't Stop Me Now/(Hard) Don't Stop Me Now.unity
+    guid: 678a4b8195a36e3448e306d080a5f1e1
+  - enabled: 1
     path: Assets/Scenes/Story Selection.unity
     guid: 2fe53a6c0a7154245806f4ddc017bf11
   - enabled: 1
