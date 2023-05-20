@@ -74,8 +74,11 @@ namespace Dypsloom.RhythmTimeline.Scoring
 
         public bool bonusScoreEnable;
         private float m_bonusOffset;
-        
-        
+
+        public AudioSource hitAudioSource;
+        public AudioSource missAudioSource;
+
+
         string FormatFloat(float value)
         {
             return String.Format("{0:N0}", value);
@@ -110,6 +113,15 @@ namespace Dypsloom.RhythmTimeline.Scoring
 
         private void HandleOnNoteTriggerEvent(NoteTriggerEventData noteTriggerEventData)
         {
+            if (noteTriggerEventData.Miss)
+            {
+                missAudioSource.Play();
+            }
+            else
+            {
+                hitAudioSource.Play();
+            }
+
             var noteAccuracy = AddNoteAccuracyScore(
                 noteTriggerEventData.Note,
                 noteTriggerEventData.DspTimeDifferencePercentage,
@@ -120,6 +132,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
                 : noteTriggerEventData.Note.RhythmClipData.TrackObject.EndPoint;
            
             ScorePopup(spawnTransform, noteAccuracy);
+            
         }
 
         private void HandleOnSongEnd()
