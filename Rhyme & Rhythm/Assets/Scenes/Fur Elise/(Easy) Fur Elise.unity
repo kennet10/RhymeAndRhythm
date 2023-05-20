@@ -303,6 +303,10 @@ PrefabInstance:
       propertyPath: m_TrackID
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5220759278448557766, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 6262133305786215480, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.600003
@@ -656,6 +660,10 @@ PrefabInstance:
       propertyPath: m_TrackID
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5220759278448557766, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 6262133305786215480, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.600003
@@ -800,6 +808,10 @@ PrefabInstance:
       propertyPath: m_TrackID
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5220759278448557766, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 6345725294697126350, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
       propertyPath: m_LocalPosition.y
       value: -16.35
@@ -931,6 +943,10 @@ PrefabInstance:
     - target: {fileID: 9207628466300392853, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_Name
       value: Scene Transition Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207628466300392853, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9207628466300392856, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_Pivot.x
@@ -1191,6 +1207,10 @@ PrefabInstance:
     - target: {fileID: 5210570378095717770, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
       propertyPath: m_TrackID
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5220759278448557766, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
       objectReference: {fileID: 0}
     - target: {fileID: 6262133305786215480, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1527,6 +1547,10 @@ PrefabInstance:
     - target: {fileID: 5210570378095717770, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
       propertyPath: m_TrackID
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5220759278448557766, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
       objectReference: {fileID: 0}
     - target: {fileID: 6345725294697126350, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1993,6 +2017,10 @@ PrefabInstance:
       propertyPath: m_TrackID
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5220759278448557766, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 6345725294697126350, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
       propertyPath: m_LocalPosition.y
       value: -16.35
@@ -2177,6 +2205,10 @@ PrefabInstance:
       propertyPath: m_TrackID
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5220759278448557766, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 6262133305786215480, guid: 19984c7f107318141bc4e5e47640eb90, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.6
@@ -2276,10 +2308,6 @@ PrefabInstance:
     - target: {fileID: 1109418948203623551, guid: 53ea1dcbccea83a418e4e082fed82cd2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1109418948209705177, guid: 53ea1dcbccea83a418e4e082fed82cd2, type: 3}
-      propertyPath: m_Camera
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7554185413113605736, guid: 53ea1dcbccea83a418e4e082fed82cd2, type: 3}
       propertyPath: playableDirector
