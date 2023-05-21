@@ -66,7 +66,7 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
-            SceneManager.LoadSceneAsync(7);
+            SceneManager.LoadSceneAsync(2);
         }
     }
 }

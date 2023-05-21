@@ -2316,7 +2316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1826338842167072553, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
       propertyPath: m_text
-      value: Fly Me to the Moon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1826338842322669509, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
