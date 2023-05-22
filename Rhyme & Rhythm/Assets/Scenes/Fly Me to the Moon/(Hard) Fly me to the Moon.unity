@@ -813,6 +813,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 360604000}
     - target: {fileID: 592454185, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_ProgressSlider
+      value: 
+      objectReference: {fileID: 1663296705}
+    - target: {fileID: 592454185, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_PlayableDirector
       value: 
       objectReference: {fileID: 1944758934}
@@ -1366,6 +1370,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1544221273116292281, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2041032104170162371, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -1546,6 +1554,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7287817024891589485, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
 --- !u!114 &1663296703 stripped
@@ -1564,6 +1576,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2041032104682485494, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
   m_PrefabInstance: {fileID: 1663296702}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1663296705 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2984071851762261898, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
+  m_PrefabInstance: {fileID: 1663296702}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1663296706 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 965519832, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}

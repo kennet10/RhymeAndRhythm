@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] protected TMPro.TextMeshProUGUI m_ComboText;
     [SerializeField] protected TMPro.TextMeshProUGUI m_ScoreDisplay;
     [SerializeField] protected TMPro.TextMeshProUGUI m_ComboDisplay;
+    [SerializeField] protected Slider m_ProgressSlider;
 
     [SerializeField] protected GameObject m_PauseMenu;
 
@@ -24,6 +25,8 @@ public class UIManager : MonoBehaviour
     {
         m_PlayableDirector.timeUpdateMode = DirectorUpdateMode.DSPClock;
         m_PlayableDirector.stopped += HandleSongEnded;
+        m_ProgressSlider.value = 0;
+        m_ProgressSlider.maxValue = ((float)m_PlayableDirector.duration);
 
         m_GameIsPaused = false;
     }
@@ -33,6 +36,10 @@ public class UIManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             PauseGame();
+        }
+        if (Application.isPlaying == true)
+        {
+            m_ProgressSlider.value = ((float)m_PlayableDirector.time);
         }
     }
 
