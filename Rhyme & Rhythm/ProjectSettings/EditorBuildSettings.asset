@@ -17,15 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fur Elise/(Hard) Fur Elise.unity
     guid: 5d1979deed37b054caebfffa1819438d
-  - enabled: 1
-    path: Assets/Scenes/Fly Me to the Moon/(Easy) Fly Me to the Moon.unity
-    guid: 4894154916b155d4285657410306a615
-  - enabled: 1
-    path: Assets/Scenes/Fly Me to the Moon/(Normal) Fly me to the Moon.unity
-    guid: 3e89e7460bdfcb144a5ec9d1bd0dc227
-  - enabled: 1
-    path: Assets/Scenes/Fly Me to the Moon/(Hard) Fly me to the Moon.unity
-    guid: 1b4f48ac97b48554383c02ce3f1c1cf6
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Don't Stop Me Now/(Easy) Don't Stop Me Now.unity
     guid: 2d941885c1b783244bbbed8f47fbe483
