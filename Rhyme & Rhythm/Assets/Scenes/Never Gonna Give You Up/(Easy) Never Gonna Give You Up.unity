@@ -552,7 +552,7 @@ PrefabInstance:
     - target: {fileID: 7976925714990614339, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7907cb5df96f83f4c966742e2d36b9b7, type: 3}
+      objectReference: {fileID: 21300000, guid: d426a78332b3d5e4cb44b14c70be84f2, type: 3}
     - target: {fileID: 9207628464951575603, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_fontSize
       value: 18
@@ -583,7 +583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9207628465535635715, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_text
-      value: Arisa Kihari, the Vengeance
+      value: Nayzos
       objectReference: {fileID: 0}
     - target: {fileID: 9207628465535635715, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_margin.x
@@ -612,14 +612,26 @@ PrefabInstance:
     - target: {fileID: 9207628466261980384, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7593a624d242ab64aad482104b66a26d, type: 3}
+      objectReference: {fileID: 21300000, guid: d426a78332b3d5e4cb44b14c70be84f2, type: 3}
+    - target: {fileID: 9207628466261980384, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.20000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207628466261980384, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.20000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207628466261980384, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.20000002
+      objectReference: {fileID: 0}
     - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_SizeDelta.x
       value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 450
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -747,7 +759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9207628466622806597, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_text
-      value: Blackmagik Blazing
+      value: Never Gonna Give You Up
       objectReference: {fileID: 0}
     - target: {fileID: 9207628466622806597, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_fontSize
@@ -783,7 +795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9207628466881838110, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_text
-      value: Camellia
+      value: Rick Astley
       objectReference: {fileID: 0}
     - target: {fileID: 9207628466881838110, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_fontSize
@@ -804,6 +816,14 @@ PrefabInstance:
     - target: {fileID: 9207628466881838110, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207628466881838111, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 253.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207628466881838111, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -186.37
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
@@ -962,10 +982,10 @@ PrefabInstance:
     - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
       propertyPath: m_PlayableAsset
       value: 
-      objectReference: {fileID: 11400000, guid: bb680276e67ec2b458988c339476d9bd, type: 2}
+      objectReference: {fileID: 11400000, guid: a3f71ea82d6194b408eb5480945695bf, type: 2}
     - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 63
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
       propertyPath: m_SceneBindings.Array.data[36].key
@@ -1075,6 +1095,14 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[62].key
       value: 
       objectReference: {fileID: 8348303100719497306, guid: bb680276e67ec2b458988c339476d9bd, type: 2}
+    - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
+      propertyPath: m_SceneBindings.Array.data[63].key
+      value: 
+      objectReference: {fileID: 8348303100719497306, guid: 92b39cff940222a41908464536f10c02, type: 2}
+    - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
+      propertyPath: m_SceneBindings.Array.data[64].key
+      value: 
+      objectReference: {fileID: 8348303100719497306, guid: a3f71ea82d6194b408eb5480945695bf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
 --- !u!320 &871655614 stripped
@@ -2901,7 +2929,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 34e47811ed49fd74d812144f626dc174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f3ecbac6e60a8ae42b0b58aeae243c7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2920,8 +2948,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007185117}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalPosition: {x: 13.85, y: -5.08, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
