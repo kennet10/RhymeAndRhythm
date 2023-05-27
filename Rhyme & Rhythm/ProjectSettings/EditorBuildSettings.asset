@@ -36,6 +36,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Don't Stop Me Now/(Hard) Don't Stop Me Now.unity
     guid: 678a4b8195a36e3448e306d080a5f1e1
   - enabled: 1
+    path: Assets/Scenes/Billie Jean/(Easy) Billie Jean.unity
+    guid: 8f7d301c32fba044eba3d3d9b9221345
+  - enabled: 1
+    path: Assets/Scenes/Billie Jean/(Normal) Billie Jean.unity
+    guid: 9f8732e1a1db38b458fc251a44a46126
+  - enabled: 1
+    path: Assets/Scenes/Billie Jean/(Hard) Billie Jean.unity
+    guid: e0e6aa74061f9c04f9f8aae7de32b25e
+  - enabled: 1
+    path: Assets/Scenes/Never Gonna Give You Up/(Easy) Never Gonna Give You Up.unity
+    guid: 15b508459f3754a43a6a1320218bcff4
+  - enabled: 1
+    path: Assets/Scenes/Never Gonna Give You Up/(Normal) Never Gonna Give You Up.unity
+    guid: 588962ec14778cd449b493fc30145721
+  - enabled: 1
+    path: Assets/Scenes/Never Gonna Give You Up/(Hard) Never Gonna Give You Up.unity
+    guid: 906f02b3da6810443903a47f0a4a900d
+  - enabled: 1
     path: Assets/Scenes/Blackmagik Blazing/(Easy) Blackmagik Blazing.unity
     guid: 053fff1961a21f849baec4ddaf0109aa
   - enabled: 1
@@ -44,6 +62,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Blackmagik Blazing/(Hard) Blackmagik Blazing.unity
     guid: 7391b49dd7c7bc04db39d276dac175b9
+  - enabled: 1
+    path: Assets/Scenes/Rush E April Fools/Rush E Charter's Special.unity
+    guid: f29f65bfd0c25f84885324bbe3f9d0b9
   - enabled: 1
     path: Assets/Scenes/Story Selection.unity
     guid: 2fe53a6c0a7154245806f4ddc017bf11
