@@ -566,6 +566,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41aa306dd7f6eb64391843db462c92ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &269913091 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 592454185, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+  m_PrefabInstance: {fileID: 269913089}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcc82444967e0541aacefd132c74144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &531898419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1682,6 +1693,14 @@ PrefabInstance:
     - target: {fileID: 2041032106156182731, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4466221927354518369, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 269913091}
+    - target: {fileID: 4466221927354518369, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PauseGame
       objectReference: {fileID: 0}
     - target: {fileID: 7287817024891589485, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_AnchorMax.y

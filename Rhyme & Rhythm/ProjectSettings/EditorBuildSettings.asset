@@ -18,13 +18,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Fur Elise/(Hard) Fur Elise.unity
     guid: 5d1979deed37b054caebfffa1819438d
   - enabled: 1
-    path: Assets/Scenes/Fly Me to the Moon/(Easy) Fly Me To The Moon.unity
+    path: Assets/Scenes/Fly Me to the Moon/(Easy) Fly Me to the Moon.unity
     guid: ad646c1dda850ea438c572cd723ee74b
   - enabled: 1
-    path: Assets/Scenes/Fly Me to the Moon/(Normal) Fly Me To The Moon.unity
+    path: Assets/Scenes/Fly Me to the Moon/(Normal) Fly me to the Moon.unity
     guid: 3a61d41f71c1a38499d2aa1ad79ac29e
   - enabled: 1
-    path: Assets/Scenes/Fly Me to the Moon/(Hard) Fly Me To The Moon.unity
+    path: Assets/Scenes/Fly Me to the Moon/(Hard) Fly me to the Moon.unity
     guid: 9032d6665b3f6ae409db6eff2de01b9a
   - enabled: 1
     path: Assets/Scenes/Don't Stop Me Now/(Easy) Don't Stop Me Now.unity
@@ -45,14 +45,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Billie Jean/(Hard) Billie Jean.unity
     guid: e0e6aa74061f9c04f9f8aae7de32b25e
   - enabled: 1
-    path: Assets/Scenes/Never Gonna Give You Up/(Easy) Never Gonna Give You Up.unity
-    guid: 15b508459f3754a43a6a1320218bcff4
+    path: Assets/Scenes/Flandre's Theme/(Easy) Flandre's Theme.unity
+    guid: 6e16634d5205ee84faa891300fb13494
   - enabled: 1
-    path: Assets/Scenes/Never Gonna Give You Up/(Normal) Never Gonna Give You Up.unity
-    guid: 588962ec14778cd449b493fc30145721
+    path: Assets/Scenes/Flandre's Theme/(Normal) Flandre's Theme.unity
+    guid: e99fd901170844a409e6a2c22a42533d
   - enabled: 1
-    path: Assets/Scenes/Never Gonna Give You Up/(Hard) Never Gonna Give You Up.unity
-    guid: 906f02b3da6810443903a47f0a4a900d
+    path: Assets/Scenes/Flandre's Theme/(Hard) Flandre's Theme.unity
+    guid: 7ba620da1b623074586dc00f903a11f1
   - enabled: 1
     path: Assets/Scenes/Blackmagik Blazing/(Easy) Blackmagik Blazing.unity
     guid: 053fff1961a21f849baec4ddaf0109aa
@@ -62,6 +62,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Blackmagik Blazing/(Hard) Blackmagik Blazing.unity
     guid: 7391b49dd7c7bc04db39d276dac175b9
+  - enabled: 1
+    path: Assets/Scenes/Never Gonna Give You Up/(Easy) Never Gonna Give You Up.unity
+    guid: 15b508459f3754a43a6a1320218bcff4
+  - enabled: 1
+    path: Assets/Scenes/Never Gonna Give You Up/(Normal) Never Gonna Give You Up.unity
+    guid: 588962ec14778cd449b493fc30145721
+  - enabled: 1
+    path: Assets/Scenes/Never Gonna Give You Up/(Hard) Never Gonna Give You Up.unity
+    guid: 906f02b3da6810443903a47f0a4a900d
   - enabled: 1
     path: Assets/Scenes/Rush E April Fools/Rush E Charter's Special.unity
     guid: f29f65bfd0c25f84885324bbe3f9d0b9
