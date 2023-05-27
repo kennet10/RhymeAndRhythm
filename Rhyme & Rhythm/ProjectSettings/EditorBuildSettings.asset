@@ -36,6 +36,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Don't Stop Me Now/(Hard) Don't Stop Me Now.unity
     guid: 678a4b8195a36e3448e306d080a5f1e1
   - enabled: 1
+    path: Assets/Scenes/Billie Jean/(Easy) Billy Jean.unity
+    guid: b9a3396c5a0de3748a2b7930eb95643d
+  - enabled: 1
+    path: Assets/Scenes/Billie Jean/(Hard) Billy Jean.unity
+    guid: cdea0545e90563948bbf8558c7345a5a
+  - enabled: 1
+    path: Assets/Scenes/Billie Jean/(Normal) Billie Jean.unity
+    guid: 9f8732e1a1db38b458fc251a44a46126
+  - enabled: 1
     path: Assets/Scenes/Story Selection.unity
     guid: 2fe53a6c0a7154245806f4ddc017bf11
   - enabled: 1
