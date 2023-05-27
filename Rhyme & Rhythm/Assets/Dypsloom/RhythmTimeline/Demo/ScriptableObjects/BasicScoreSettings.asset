@@ -14,21 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AccuracyTable:
   - name: Hit
+    scoreOrder: 
     miss: 0
     breakChain: 0
     percentageTheshold: 100
     score: 100
-    icon: {fileID: 21300000, guid: 8535c62f58f63f74eaafa0aaf5ed413a, type: 3}
-    popPrefab: {fileID: 1310667963137135126, guid: 3c95827e34955244db6696e8adf01992,
-      type: 3}
+    hitBonusValue: 0
+    hitBonus: 0
+    hitPunishment: 0
+    icon: {fileID: 21300000, guid: bddec310ddfa8e04fbe273debfcf9570, type: 3}
+    popPrefab: {fileID: 1310667963137135126, guid: 3c95827e34955244db6696e8adf01992, type: 3}
   - name: Miss
+    scoreOrder: 
     miss: 1
     breakChain: 1
     percentageTheshold: 0
     score: -200
+    hitBonusValue: 0
+    hitBonus: 0
+    hitPunishment: 0
     icon: {fileID: 21300000, guid: 456ec381f0138c747a98bdab948e00a7, type: 3}
-    popPrefab: {fileID: 4555798384473535493, guid: 45e1bd912bed3d745b139084d243c322,
-      type: 3}
+    popPrefab: {fileID: 4555798384473535493, guid: 45e1bd912bed3d745b139084d243c322, type: 3}
   m_RankTable:
   - name: D
     icon: {fileID: 21300000, guid: 1374998c58f94264aaea28681e274140, type: 3}
