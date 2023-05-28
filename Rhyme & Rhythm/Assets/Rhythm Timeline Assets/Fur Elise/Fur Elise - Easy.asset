@@ -9410,6 +9410,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 116.69117647058823
   m_ID: 1
+--- !u!114 &251197168852288865
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: 967bc0a1f2976c547ab8d5583176ca02, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 1
 --- !u!114 &267846023802322493
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12607,13 +12624,13 @@ MonoBehaviour:
     m_Start: 3.3
     m_ClipIn: 0
     m_Asset: {fileID: 1847942206725885259}
-    m_Duration: 129.59349206349205
+    m_Duration: 0.016666666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3609241387596333248}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 0.007843137254901933
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -12635,6 +12652,39 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: "(CUT) F\xFCr Elise - Beethoven"
+  - m_Version: 1
+    m_Start: 3.3088235294117645
+    m_ClipIn: 0
+    m_Asset: {fileID: 251197168852288865}
+    m_Duration: 129.64573696145123
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 3609241387596333248}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0.007843137254901933
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
