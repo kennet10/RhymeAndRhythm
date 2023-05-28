@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+
 
 public class KeybindsManager : MonoBehaviour
 {
@@ -47,19 +49,25 @@ public class KeybindsManager : MonoBehaviour
     // initialize the panel setup
     public void StartPanel()
     {
-        //textField = GameObject.Find("key1").GetComponent<Text>();
-        //textField.text = "" + key1;
-        //Debug.Log("textField");
-        //Debug.Log("set text");
-        panel.SetActive(false);
-
-        GameObject[] keyTags = GameObject.FindGameObjectsWithTag("key_tag");
-        Debug.Log("made keytags list");
-        foreach (GameObject obj in keyTags)
+        GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("key_tag");
+        int counter = 0;
+        foreach (GameObject obj in objectsWithTag)
         {
-            Debug.Log("test");
-            Debug.Log(obj);
+            TextMeshProUGUI textComponent = obj.GetComponent<TextMeshProUGUI>();
+
+            if (textComponent != null)
+            {
+                textComponent.text = "" + keyList[counter];
+                counter += 1;
+            }
+            else
+            {
+                Debug.Log("GameObject does not have a Text component.");
+            }
         }
+
+        // ---------------------
+        panel.SetActive(false);
     }
 
     public void OpenPanel()

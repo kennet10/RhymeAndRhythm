@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - keybinds_panel
+  - key_tag
   layers:
   - Default
   - TransparentFX
