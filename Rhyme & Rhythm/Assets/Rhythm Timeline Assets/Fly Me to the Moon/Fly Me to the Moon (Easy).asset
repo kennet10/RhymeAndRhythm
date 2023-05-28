@@ -2594,8 +2594,8 @@ MonoBehaviour:
     - {fileID: -3216400773504289138}
     - {fileID: -4341290277181561326}
     - {fileID: -4593347074966998328}
-  m_OnBeat: {fileID: 0}
-  m_OffBeat: {fileID: 0}
+  m_OnBeat: {fileID: 11400000, guid: 32a8b5e59771fce4a89dbdb9c521ac31, type: 2}
+  m_OffBeat: {fileID: 11400000, guid: caf5ede1335c92f448d57eaa6395c961, type: 2}
 --- !u!114 &-6372716985093138678
 MonoBehaviour:
   m_ObjectHideFlags: 1
