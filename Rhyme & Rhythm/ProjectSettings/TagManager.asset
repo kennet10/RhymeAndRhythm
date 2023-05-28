@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - keybinds_panel
+  - key_tag
   layers:
   - Default
   - TransparentFX
