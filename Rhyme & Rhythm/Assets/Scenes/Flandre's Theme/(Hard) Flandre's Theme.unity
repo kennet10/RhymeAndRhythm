@@ -1008,35 +1008,7 @@ PrefabInstance:
     - target: {fileID: 9207628466261980384, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7593a624d242ab64aad482104b66a26d, type: 3}
-    - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 800
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.00045776
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: 0369acea430fed8478659fcc5a960314, type: 3}
     - target: {fileID: 9207628466300392852, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_Controller
       value: 
@@ -2862,7 +2834,7 @@ PrefabInstance:
     - target: {fileID: 2041032104181509065, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7907cb5df96f83f4c966742e2d36b9b7, type: 3}
+      objectReference: {fileID: 21300000, guid: 0369acea430fed8478659fcc5a960314, type: 3}
     - target: {fileID: 2041032104682485494, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2873,7 +2845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2041032105065542813, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_text
-      value: Camellia
+      value: ZUN
       objectReference: {fileID: 0}
     - target: {fileID: 2041032105065542813, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_fontAsset
@@ -2909,7 +2881,7 @@ PrefabInstance:
       objectReference: {fileID: 7860381494028231112, guid: 1810c3c0fa914bb4abfa3503b2912bee, type: 2}
     - target: {fileID: 2041032105401284308, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_text
-      value: Blackmagik Blazing
+      value: U.N. Owen was Her? (Flandre's Theme)
       objectReference: {fileID: 0}
     - target: {fileID: 2041032105401284308, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_fontSize

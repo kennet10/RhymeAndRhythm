@@ -795,7 +795,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Flandre's Theme
+          m_StringArgument: U.N. Owen was Her?
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 400602302}
@@ -807,7 +807,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: UN Owen was her
+          m_StringArgument: ZUN
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 400602302}
@@ -1088,7 +1088,31 @@ PrefabInstance:
       objectReference: {fileID: -5142275586244246620, guid: eaee58b31bf0e3548bdab48fbd6fb4e1, type: 2}
     - target: {fileID: 1826338842167072553, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
       propertyPath: m_text
-      value: Flandre's Theme
+      value: U.N. Owen was Her? (Flandre's Theme)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826338842167072553, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
+      propertyPath: m_fontSize
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826338842167072553, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826338842167072553, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
+      propertyPath: m_overflowMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826338842167072553, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
+      propertyPath: m_horizontalMapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826338842167072553, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826338842167072553, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
+      propertyPath: m_IsTextObjectScaleStatic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1826338842322669509, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1156,7 +1180,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 2d34f7f9324a8884493315572b922970, type: 3}
     - target: {fileID: 6613599699545629237, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
       propertyPath: m_text
-      value: U.N. Owen was her
+      value: ZUN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
@@ -1239,7 +1263,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Flandre's Theme
+  m_text: U.N. Owen was Her? (Flandre's Theme)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eaee58b31bf0e3548bdab48fbd6fb4e1, type: 2}
   m_sharedMaterial: {fileID: -5142275586244246620, guid: eaee58b31bf0e3548bdab48fbd6fb4e1, type: 2}
@@ -2285,8 +2309,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 215.29999, y: 46.647003}
-  m_SizeDelta: {x: 39.16, y: 26.87}
+  m_AnchoredPosition: {x: 205, y: 46.647003}
+  m_SizeDelta: {x: 60, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &850067457
 MonoBehaviour:
@@ -7724,11 +7748,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608140389168, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 178
+      value: 320
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608140389168, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -199
+      value: 192
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608140389168, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7746,6 +7770,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1830903951}
+    - target: {fileID: 7940018608754351183, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -313
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940018608754351183, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -193
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940018609229104973, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 55c170e6bb02cda439e806d92d937abe, type: 2}
+    - target: {fileID: 7940018609229104973, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6254568058631803819, guid: 55c170e6bb02cda439e806d92d937abe, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
 --- !u!1001 &9207628465004980817

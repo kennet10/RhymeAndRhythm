@@ -2290,7 +2290,7 @@ PrefabInstance:
     - target: {fileID: 2041032104181509065, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7907cb5df96f83f4c966742e2d36b9b7, type: 3}
+      objectReference: {fileID: 21300000, guid: d426a78332b3d5e4cb44b14c70be84f2, type: 3}
     - target: {fileID: 2041032104682485494, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2301,7 +2301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2041032105065542813, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_text
-      value: Camellia
+      value: Rick Astley
       objectReference: {fileID: 0}
     - target: {fileID: 2041032105065542813, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_fontAsset
@@ -2337,7 +2337,7 @@ PrefabInstance:
       objectReference: {fileID: 7860381494028231112, guid: 1810c3c0fa914bb4abfa3503b2912bee, type: 2}
     - target: {fileID: 2041032105401284308, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_text
-      value: Blackmagik Blazing
+      value: Never Gonna Give You Up
       objectReference: {fileID: 0}
     - target: {fileID: 2041032105401284308, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_fontSize
