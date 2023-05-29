@@ -28,13 +28,13 @@ EditorBuildSettings:
     guid: 9032d6665b3f6ae409db6eff2de01b9a
   - enabled: 1
     path: Assets/Scenes/Don't Stop Me Now/(Easy) Don't Stop Me Now.unity
-    guid: 2d941885c1b783244bbbed8f47fbe483
+    guid: c7ff50316cdf6fa49be40a59199b4283
   - enabled: 1
     path: Assets/Scenes/Don't Stop Me Now/(Normal) Don't Stop Me Now.unity
     guid: 95b0b9fb6c93081468954f9bf51bbcae
   - enabled: 1
     path: Assets/Scenes/Don't Stop Me Now/(Hard) Don't Stop Me Now.unity
-    guid: 678a4b8195a36e3448e306d080a5f1e1
+    guid: 36e5da47ab69927489c38042a3a1a7ae
   - enabled: 1
     path: Assets/Scenes/Billie Jean/(Easy) Billie Jean.unity
     guid: 8f7d301c32fba044eba3d3d9b9221345

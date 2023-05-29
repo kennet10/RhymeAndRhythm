@@ -268,27 +268,15 @@ PrefabInstance:
     - target: {fileID: 7976925714990614339, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b697035ccb08e5a44a0a9a7ef0552173, type: 3}
-    - target: {fileID: 9207628464951575600, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 684.99994
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628465535635712, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 285
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: e780b66ef59778b4a82538185852810b, type: 3}
     - target: {fileID: 9207628465535635715, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_text
       value: N/A
       objectReference: {fileID: 0}
-    - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466261980385, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 9207628466261980384, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e780b66ef59778b4a82538185852810b, type: 3}
     - target: {fileID: 9207628466300392852, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_Controller
       value: 
@@ -381,10 +369,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9207628466622806594, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -288
-      objectReference: {fileID: 0}
     - target: {fileID: 9207628466622806597, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_text
       value: Don't Stop Me Now
@@ -392,10 +376,6 @@ PrefabInstance:
     - target: {fileID: 9207628466881838110, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_text
       value: Queen
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466881838111, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -288
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
