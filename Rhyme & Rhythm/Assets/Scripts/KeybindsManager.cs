@@ -18,7 +18,7 @@ public class KeybindsManager : MonoBehaviour
     private string key7 = "J";
     private string key8 = "K";
 
-    Text textField;
+    TextMeshProUGUI textField;
     GameObject panel;
     List<string> keyList;
 
@@ -78,6 +78,11 @@ public class KeybindsManager : MonoBehaviour
     public void ClosePanel()
     {
         panel.SetActive(false);
+    }
+
+    public void RequestKey()
+    {
+
     }
 
 }

@@ -17,7 +17,7 @@ MonoBehaviour:
     scoreOrder: 1
     miss: 0
     breakChain: 0
-    percentageTheshold: 15
+    percentageTheshold: 25
     score: 320
     hitBonusValue: 32
     hitBonus: 2
@@ -28,7 +28,7 @@ MonoBehaviour:
     scoreOrder: 2
     miss: 0
     breakChain: 0
-    percentageTheshold: 25
+    percentageTheshold: 30
     score: 300
     hitBonusValue: 32
     hitBonus: 1
@@ -39,7 +39,7 @@ MonoBehaviour:
     scoreOrder: 3
     miss: 0
     breakChain: 0
-    percentageTheshold: 25
+    percentageTheshold: 20
     score: 200
     hitBonusValue: 16
     hitBonus: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
     scoreOrder: 4
     miss: 0
     breakChain: 0
-    percentageTheshold: 20
+    percentageTheshold: 15
     score: 100
     hitBonusValue: 8
     hitBonus: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
     scoreOrder: 5
     miss: 0
     breakChain: 0
-    percentageTheshold: 15
+    percentageTheshold: 10
     score: 50
     hitBonusValue: 4
     hitBonus: 0
