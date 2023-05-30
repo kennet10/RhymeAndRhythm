@@ -1146,14 +1146,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9207628466622806594, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 250
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466622806594, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -186.36514
-      objectReference: {fileID: 0}
     - target: {fileID: 9207628466622806597, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_text
       value: Blackmagik Blazing
@@ -1213,22 +1205,6 @@ PrefabInstance:
     - target: {fileID: 9207628466881838110, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466881838111, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 250
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466881838111, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466881838111, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -186.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 9207628466881838111, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -150
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 195f17b81c18464499729eb931fe17d2, type: 3}
