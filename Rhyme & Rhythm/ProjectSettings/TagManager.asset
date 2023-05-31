@@ -6,6 +6,7 @@ TagManager:
   tags:
   - keybinds_panel
   - key_tag
+  - press_any_key
   layers:
   - Default
   - TransparentFX
