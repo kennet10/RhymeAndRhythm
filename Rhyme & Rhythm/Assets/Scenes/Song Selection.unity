@@ -6366,6 +6366,10 @@ PrefabInstance:
       propertyPath: m_text
       value: EASY
       objectReference: {fileID: 0}
+    - target: {fileID: 4490489881070095244, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 855ed8e9b9d4d4f418e4e7d47c8c2774, type: 3}
     - target: {fileID: 6613599699545629237, guid: bca899e24663b334c83b27e5df48f9ba, type: 3}
       propertyPath: m_text
       value: Sheet Music Boss
