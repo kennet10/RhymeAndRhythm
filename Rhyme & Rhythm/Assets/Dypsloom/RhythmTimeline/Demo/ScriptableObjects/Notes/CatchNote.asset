@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CatchNote
   m_EditorClassIdentifier: 
   m_NotePrefab: {fileID: 3114862973358934936, guid: 1c80460ccee8b7d4d9ef2dcc8c1754f6, type: 3}
-  m_ClipDuration: 1
+  m_ClipDuration: 3
   m_ScaledCrochetValue: 1.2
   m_RhythmClipEditorSettings:
     m_Left: {fileID: 0}

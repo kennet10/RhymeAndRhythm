@@ -1,6 +1,7 @@
 namespace Dypsloom.RhythmTimeline.Core.Notes 
 {
     using UnityEngine;
+    using System.Collections;
     using Dypsloom.RhythmTimeline.Core.Input;
     using Dypsloom.RhythmTimeline.Core.Playables;
     public class CatchNote : Note
