@@ -166,6 +166,30 @@ PrefabInstance:
       propertyPath: m_PlayableDirector
       value: 
       objectReference: {fileID: 871655614}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_ChainTmp
+      value: 
+      objectReference: {fileID: 1760908363}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_ScoreTmp
+      value: 
+      objectReference: {fileID: 1760908364}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: hitAudioSource
+      value: 
+      objectReference: {fileID: 420708248}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: missAudioSource
+      value: 
+      objectReference: {fileID: 420708247}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_RhythmDirector
+      value: 
+      objectReference: {fileID: 871655615}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_noteCounterManager
+      value: 
+      objectReference: {fileID: 1760908362}
     - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_ChainTmp
       value: 

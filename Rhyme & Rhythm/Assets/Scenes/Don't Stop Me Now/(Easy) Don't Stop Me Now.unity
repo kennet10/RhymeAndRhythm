@@ -634,6 +634,30 @@ PrefabInstance:
       propertyPath: m_PlayableDirector
       value: 
       objectReference: {fileID: 1203767091}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_ChainTmp
+      value: 
+      objectReference: {fileID: 2084662330}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_ScoreTmp
+      value: 
+      objectReference: {fileID: 2084662331}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: hitAudioSource
+      value: 
+      objectReference: {fileID: 1929016053}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: missAudioSource
+      value: 
+      objectReference: {fileID: 1929016052}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_RhythmDirector
+      value: 
+      objectReference: {fileID: 1203767092}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_noteCounterManager
+      value: 
+      objectReference: {fileID: 2084662329}
     - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_ChainTmp
       value: 
@@ -1895,6 +1919,17 @@ PlayableDirector:
   m_CorrespondingSourceObject: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
   m_PrefabInstance: {fileID: 1203767090}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1203767092 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1604570903184279292, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
+  m_PrefabInstance: {fileID: 1203767090}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f697f56c70402554888ab11c3d877532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1232507223
 PrefabInstance:
   m_ObjectHideFlags: 0
