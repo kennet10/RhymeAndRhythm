@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 3954410844114012145}
   - component: {fileID: 656600879368528077}
   - component: {fileID: 3954410844114012148}
-  - component: {fileID: 3463860707911455419}
   - component: {fileID: 592454177}
   - component: {fileID: 592454185}
+  - component: {fileID: 949473889328804227}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -87,7 +87,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82a5f0228712d65468db715238699b1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3463860707911455419
+--- !u!114 &592454177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3954410844114012158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41aa306dd7f6eb64391843db462c92ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneBuildIndex: 0
+  sceneTransitionAnimator: {fileID: 0}
+--- !u!114 &592454185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3954410844114012158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcc82444967e0541aacefd132c74144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlayableDirector: {fileID: 0}
+  m_ScoreMenu: {fileID: 0}
+  m_ScoreText: {fileID: 0}
+  m_ComboText: {fileID: 0}
+  m_ScoreDisplay: {fileID: 0}
+  m_ComboDisplay: {fileID: 0}
+  m_ProgressSlider: {fileID: 0}
+  m_PauseMenu: {fileID: 0}
+--- !u!114 &949473889328804227
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,35 +142,5 @@ MonoBehaviour:
   m_AccuracySpawnPoint: {fileID: 0}
   m_noteCounterManager: {fileID: 0}
   bonusScoreEnable: 1
---- !u!114 &592454177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3954410844114012158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41aa306dd7f6eb64391843db462c92ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneBuildIndex: 0
---- !u!114 &592454185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3954410844114012158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bcc82444967e0541aacefd132c74144, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PlayableDirector: {fileID: 0}
-  m_ScoreMenu: {fileID: 0}
-  m_ScoreText: {fileID: 0}
-  m_ComboText: {fileID: 0}
-  m_ScoreDisplay: {fileID: 0}
-  m_ComboDisplay: {fileID: 0}
-  m_PauseMenu: {fileID: 0}
+  hitAudioSource: {fileID: 0}
+  missAudioSource: {fileID: 0}
