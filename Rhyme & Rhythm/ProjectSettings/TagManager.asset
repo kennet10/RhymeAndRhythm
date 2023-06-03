@@ -6,13 +6,7 @@ TagManager:
   tags:
   - keybinds_panel
   - key_tag
-<<<<<<< Updated upstream
   - press_any_key
-=======
-  - hit_Sound
-  - miss_Sound
-  - RD
->>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
