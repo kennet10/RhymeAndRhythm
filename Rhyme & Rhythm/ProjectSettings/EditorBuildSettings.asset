@@ -81,6 +81,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Story Selection.unity
     guid: 2fe53a6c0a7154245806f4ddc017bf11
   - enabled: 1
-    path: Assets/Scenes/Story1.unity
+    path: Assets/Scenes/prologue.unity
     guid: ab8e6581f084f5947a0f8e32645e8ced
+  - enabled: 1
+    path: Assets/Scenes/Story01.unity
+    guid: c286bbcb8c286ec42be541749b93c9e0
   m_configObjects: {}
