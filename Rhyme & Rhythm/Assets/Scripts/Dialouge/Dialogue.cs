@@ -10,9 +10,13 @@ public class Dialogue : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI textComponent;
     [SerializeField]
+    private int nextScene;
+    [SerializeField]
+    [TextArea(10, 15)]
     private string[] lines;
     [SerializeField]
     private float textSpeed;
+    
 
     private int index;
 
@@ -23,22 +27,6 @@ public class Dialogue : MonoBehaviour
         StartDialogue();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            if(textComponent.text == lines[index])
-            {
-                NextLine();
-            }
-            else
-            {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
-            }
-        }
-    }
 
     private void StartDialogue()
     {
@@ -55,6 +43,19 @@ public class Dialogue : MonoBehaviour
         }
     }
 
+    public void NextLineButton()
+    {
+        if (textComponent.text == lines[index])
+        {
+            NextLine();
+        }
+        else
+        {
+            StopAllCoroutines();
+            textComponent.text = lines[index];
+        }
+    }
+
     private void NextLine()
     {
         if(index < lines.Length - 1)
@@ -66,7 +67,35 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
-            SceneManager.LoadSceneAsync(2);
+            SceneManager.LoadSceneAsync(nextScene);
         }
+    }
+
+    public void PrevLineButton()
+    {
+        if (textComponent.text == lines[index])
+        {
+            PrevLine();
+        }
+        else
+        {
+            StopAllCoroutines();
+            textComponent.text = lines[index];
+        }
+    }
+    private void PrevLine()
+    {
+        if (index > 0)
+        {
+            index--;
+            textComponent.text = string.Empty;
+            StartCoroutine(TypeLine());
+        }
+
+    }
+    public void SkipScene()
+    {
+        gameObject.SetActive(false);
+        SceneManager.LoadSceneAsync(nextScene);
     }
 }
