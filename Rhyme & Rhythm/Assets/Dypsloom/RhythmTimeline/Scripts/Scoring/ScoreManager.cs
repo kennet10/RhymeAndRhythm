@@ -64,13 +64,14 @@ namespace Dypsloom.RhythmTimeline.Scoring
 
         // score setup
         //public PlayableDirector playableDirector;
-        [SerializeField] NoteCounter m_noteCounterManager   ;
+        [SerializeField] NoteCounter m_noteCounterManager;
         private int m_TotalNotes;
         private float m_BaseScore;
         private float m_BonusScore;
         private float m_Bonus;
         private float m_MaxHitValue;
         private float m_MaxScore;
+        private float m_songScore;
 
         public bool bonusScoreEnable;
         private float m_bonusOffset;
@@ -89,8 +90,8 @@ namespace Dypsloom.RhythmTimeline.Scoring
         {
             m_Instance = this;
             Toolbox.Set(this);
-
-
+            m_songScore = 0;
+            Debug.Log("Score: " + m_songScore);
         }
 
         private void Start()
@@ -208,6 +209,9 @@ namespace Dypsloom.RhythmTimeline.Scoring
                 song.SetHighScore(newScore);
                 OnNewHighScore?.Invoke(song);
             }
+            m_songScore = m_CurrentScore;
+            PlayerPrefs.SetFloat("Score", m_songScore);
+            PlayerPrefs.SetFloat("Combo", m_CurrentMaxChain);
         }
 
         public ScoreData GetScoreData()
@@ -369,6 +373,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
         
         public float GetScore()
         {
+            m_songScore = m_CurrentScore;
             return m_CurrentScore;
         }
 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TapNote
   m_EditorClassIdentifier: 
   m_NotePrefab: {fileID: 3114862973358934936, guid: d2886d12b2cb1f94f8c6be73d52b70f1, type: 3}
-  m_ClipDuration: 1
+  m_ClipDuration: 4
   m_ScaledCrochetValue: 1.2
   m_RhythmClipEditorSettings:
     m_Left: {fileID: 0}

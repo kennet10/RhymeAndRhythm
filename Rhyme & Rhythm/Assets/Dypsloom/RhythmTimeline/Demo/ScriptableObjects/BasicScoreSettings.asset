@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AccuracyTable:
   - name: Hit
-    scoreOrder: 
+    scoreOrder: 1
     miss: 0
     breakChain: 0
     percentageTheshold: 100

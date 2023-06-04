@@ -406,6 +406,34 @@ PrefabInstance:
       propertyPath: m_PlayableDirector
       value: 
       objectReference: {fileID: 1218033259}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_ChainTmp
+      value: 
+      objectReference: {fileID: 1465014198}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_ScoreTmp
+      value: 
+      objectReference: {fileID: 527965842}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: hitAudioSource
+      value: 
+      objectReference: {fileID: 884887639}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: missAudioSource
+      value: 
+      objectReference: {fileID: 884887638}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_RhythmDirector
+      value: 
+      objectReference: {fileID: 825998871}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_ScoreMultiplierTmp
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_noteCounterManager
+      value: 
+      objectReference: {fileID: 1797804032}
     - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_ChainTmp
       value: 

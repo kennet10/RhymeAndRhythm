@@ -430,6 +430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2041032106156182727, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2041032106156182731, guid: 43262c61b51698d4293d0541c5aaba41, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1547,6 +1551,30 @@ PrefabInstance:
       propertyPath: m_PlayableDirector
       value: 
       objectReference: {fileID: 1963343923}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_ChainTmp
+      value: 
+      objectReference: {fileID: 460049049}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_ScoreTmp
+      value: 
+      objectReference: {fileID: 1735811652}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: hitAudioSource
+      value: 
+      objectReference: {fileID: 404445728}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: missAudioSource
+      value: 
+      objectReference: {fileID: 1749025352}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_RhythmDirector
+      value: 
+      objectReference: {fileID: 1963343924}
+    - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_noteCounterManager
+      value: 
+      objectReference: {fileID: 1781713508}
     - target: {fileID: 3463860707911455419, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_ChainTmp
       value: 
@@ -2122,10 +2150,10 @@ PrefabInstance:
     - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
       propertyPath: m_PlayableAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 4839c1e5f86f90b49bf3272789c8e02f, type: 2}
+      objectReference: {fileID: 11400000, guid: 2b4786581c3df954f9839e82a06d0e5f, type: 2}
     - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 63
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
       propertyPath: m_SceneBindings.Array.data[36].key
@@ -2235,6 +2263,10 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[62].key
       value: 
       objectReference: {fileID: 8348303100719497306, guid: 4839c1e5f86f90b49bf3272789c8e02f, type: 2}
+    - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
+      propertyPath: m_SceneBindings.Array.data[63].key
+      value: 
+      objectReference: {fileID: -9101303491139301457, guid: 2b4786581c3df954f9839e82a06d0e5f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
 --- !u!1001 &1630111513

@@ -15,4 +15,9 @@ public class QuitGame : MonoBehaviour
             return;
         }
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
