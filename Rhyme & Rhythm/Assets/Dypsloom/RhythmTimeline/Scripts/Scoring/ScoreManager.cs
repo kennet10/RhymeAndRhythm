@@ -210,7 +210,7 @@ namespace Dypsloom.RhythmTimeline.Scoring
                 OnNewHighScore?.Invoke(song);
             }
             m_songScore = m_CurrentScore;
-            PlayerPrefs.SetFloat("Score", m_songScore);
+            PlayerPrefs.SetInt("Score", (int)m_songScore);
             PlayerPrefs.SetFloat("Combo", m_CurrentMaxChain);
         }
 

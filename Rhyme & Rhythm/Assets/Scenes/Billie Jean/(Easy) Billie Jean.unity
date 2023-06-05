@@ -1424,6 +1424,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 462755502}
     - target: {fileID: 592454185, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
+      propertyPath: m_RhythmDirector
+      value: 
+      objectReference: {fileID: 1963343924}
+    - target: {fileID: 592454185, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_PlayableDirector
       value: 
       objectReference: {fileID: 1963343923}
@@ -1434,7 +1438,7 @@ PrefabInstance:
     - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: m_ScoreTmp
       value: 
-      objectReference: {fileID: 460049049}
+      objectReference: {fileID: 1735811652}
     - target: {fileID: 949473889328804227, guid: 96d00d6441817644ba7059ca69f77736, type: 3}
       propertyPath: hitAudioSource
       value: 
@@ -2029,7 +2033,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 4839c1e5f86f90b49bf3272789c8e02f, type: 2}
     - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 63
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
       propertyPath: m_SceneBindings.Array.data[36].key
@@ -2139,6 +2143,10 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[62].key
       value: 
       objectReference: {fileID: 8348303100719497306, guid: 4839c1e5f86f90b49bf3272789c8e02f, type: 2}
+    - target: {fileID: 1604570903184279295, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
+      propertyPath: m_SceneBindings.Array.data[63].key
+      value: 
+      objectReference: {fileID: -11613400382112112, guid: bf4cca70ee0228c49ab31869ab608119, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73d50a1f61c0c0d449cb4247cfafd1b0, type: 3}
 --- !u!1001 &1630111513
