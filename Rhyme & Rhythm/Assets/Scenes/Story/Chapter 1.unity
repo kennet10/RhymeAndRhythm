@@ -476,5 +476,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue
       objectReference: {fileID: 0}
+    - target: {fileID: 9191042267121011205, guid: 7edfdc2e5ce13cd498e1a43e66fc0269, type: 3}
+      propertyPath: nextScene
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7edfdc2e5ce13cd498e1a43e66fc0269, type: 3}

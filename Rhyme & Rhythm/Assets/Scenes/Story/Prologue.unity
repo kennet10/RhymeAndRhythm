@@ -1838,7 +1838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1851181370624566860}
-  nextScene: 2
+  nextScene: 1
   lines:
   - "Year 2727. It is about time for me to take on the most important mission ever\u2013a
     mission that can change the course of humanity as is. If I get involved too much,
