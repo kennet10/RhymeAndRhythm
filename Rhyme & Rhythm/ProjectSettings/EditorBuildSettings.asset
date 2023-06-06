@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Scene.unity
     guid: 31d40e0fc8c3fb3479b2601dd5d89651
   - enabled: 1
+    path: Assets/Scenes/Story/Story Selection.unity
+    guid: 2fe53a6c0a7154245806f4ddc017bf11
+  - enabled: 1
+    path: Assets/Scenes/Story/Prologue.unity
+    guid: ab8e6581f084f5947a0f8e32645e8ced
+  - enabled: 1
+    path: Assets/Scenes/Story/Chapter 1.unity
+    guid: c286bbcb8c286ec42be541749b93c9e0
+  - enabled: 1
     path: Assets/Scenes/Song Selection.unity
     guid: b5da67a3da26a43478964c2f1767eb00
   - enabled: 1
@@ -75,15 +84,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Never Gonna Give You Up/(Hard) Never Gonna Give You Up.unity
     guid: 906f02b3da6810443903a47f0a4a900d
   - enabled: 1
+    path: Assets/Scenes/Melt/Melt (Easy).unity
+    guid: af8995646bd03894590e259c74807814
+  - enabled: 1
+    path: Assets/Scenes/Melt/Melt (Normal).unity
+    guid: bc44af01d82720f4a95daee7f3b87c5a
+  - enabled: 1
+    path: Assets/Scenes/Melt/Melt (Hard).unity
+    guid: 72e349048a1a73b42b8db61c834c2b28
+  - enabled: 1
     path: Assets/Scenes/Rush E April Fools/Rush E Charter's Special.unity
     guid: f29f65bfd0c25f84885324bbe3f9d0b9
-  - enabled: 1
-    path: Assets/Scenes/Story Selection.unity
-    guid: 2fe53a6c0a7154245806f4ddc017bf11
-  - enabled: 1
-    path: Assets/Scenes/prologue.unity
-    guid: ab8e6581f084f5947a0f8e32645e8ced
-  - enabled: 1
-    path: Assets/Scenes/Story01.unity
-    guid: c286bbcb8c286ec42be541749b93c9e0
   m_configObjects: {}
