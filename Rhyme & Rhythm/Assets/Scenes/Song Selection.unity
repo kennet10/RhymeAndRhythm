@@ -3988,7 +3988,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Never Gonna Give You Up
+  m_text: Melt
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eaee58b31bf0e3548bdab48fbd6fb4e1, type: 2}
   m_sharedMaterial: {fileID: -5142275586244246620, guid: eaee58b31bf0e3548bdab48fbd6fb4e1, type: 2}
