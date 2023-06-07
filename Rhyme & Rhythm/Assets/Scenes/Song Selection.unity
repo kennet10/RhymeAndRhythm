@@ -412,11 +412,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24029627}
   m_CullTransparentMesh: 1
---- !u!1 &34125229 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7940018608754351180, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
-  m_PrefabInstance: {fileID: 3436609665663014252}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &113691235
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,19 +485,6 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 3436609665775289289, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
   m_PrefabInstance: {fileID: 3436609665663014252}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &162616998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34125229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cdb2fd660bc3fb4ba39a6b2b77fabf2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 162616997}
 --- !u!1 &249770270
 GameObject:
   m_ObjectHideFlags: 0
@@ -7614,6 +7596,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 465220932}
     m_Modifications:
+    - target: {fileID: 1830903951, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 162616997}
     - target: {fileID: 427450584110289529, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_Name
       value: Keybinds
@@ -7626,6 +7612,10 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4164039218
       objectReference: {fileID: 0}
+    - target: {fileID: 3436609665775289289, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: af5d618068c5f9d4a9eb667055d004e0, type: 2}
     - target: {fileID: 7610980313766538316, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4177526783
@@ -7644,27 +7634,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608099774143, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608099774143, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608099774143, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7940018608068004206}
+    - target: {fileID: 7940018608099774143, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 162616998}
+      objectReference: {fileID: 7940018608068004206}
     - target: {fileID: 7940018608099774143, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608099774143, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClosePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940018608099774143, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Close
+      value: ClosePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940018608099774143, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: KeybindsManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608099774143, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KeybindAnimation, Assembly-CSharp
+      value: KeybindsManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608099774143, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -7760,7 +7762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608140389171, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608140389171, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -7771,9 +7773,13 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608140389171, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7940018608068004206}
+    - target: {fileID: 7940018608140389171, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 162616998}
+      objectReference: {fileID: 7940018608068004206}
     - target: {fileID: 7940018608140389171, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -7783,16 +7789,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608140389171, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940018608140389171, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Open
+      value: OpenPanel
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608140389171, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608140389171, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: KeybindsManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940018608140389171, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: KeybindAnimation, Assembly-CSharp
+      value: KeybindsManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7940018608140389171, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -7820,6 +7834,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+--- !u!114 &7940018608068004206 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1830903951, guid: a60d495fd7ca6124aa6eeff7dd6a6849, type: 3}
+  m_PrefabInstance: {fileID: 3436609665663014252}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093a47f7bb894e2469dea0cfef0b8894, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &9207628465004980817
 PrefabInstance:
   m_ObjectHideFlags: 0
