@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 
 public class KeybindsManager : MonoBehaviour
 {
+    public Animator animator;
     public bool debugMode;
 
     private string key1 = "E";
@@ -105,10 +106,17 @@ public class KeybindsManager : MonoBehaviour
     public void OpenPanel()
     {
         panel.SetActive(true);
+        animator.SetBool("clickx", false);
         pressAnyKey.SetActive(false);
     }
 
     public void ClosePanel()
+    {
+        animator.SetBool("clickx", true);
+        Invoke("SetActiveFalse", 1);
+    }
+
+    public void SetActiveFalse()
     {
         panel.SetActive(false);
     }
