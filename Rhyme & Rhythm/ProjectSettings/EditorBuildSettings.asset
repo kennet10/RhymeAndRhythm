@@ -84,14 +84,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Never Gonna Give You Up/(Hard) Never Gonna Give You Up.unity
     guid: 906f02b3da6810443903a47f0a4a900d
   - enabled: 1
-    path: Assets/Scenes/Melt/Melt (Easy).unity
-    guid: af8995646bd03894590e259c74807814
+    path: Assets/Scenes/Melt/(Easy) Melt.unity
+    guid: 836b71b08bb77aa4a99e92bc132875bf
   - enabled: 1
-    path: Assets/Scenes/Melt/Melt (Normal).unity
-    guid: bc44af01d82720f4a95daee7f3b87c5a
+    path: Assets/Scenes/Melt/(Normal) Melt.unity
+    guid: 4076bbb2a21423649827b9fd78106401
   - enabled: 1
-    path: Assets/Scenes/Melt/Melt (Hard).unity
-    guid: 72e349048a1a73b42b8db61c834c2b28
+    path: Assets/Scenes/Melt/(Hard) Melt.unity
+    guid: 11250e3a1f568c54294a977be4f0a465
   - enabled: 1
     path: Assets/Scenes/Rush E April Fools/Rush E Charter's Special.unity
     guid: f29f65bfd0c25f84885324bbe3f9d0b9
