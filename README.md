@@ -4,7 +4,7 @@ An 8 week project for ICS 166: Game Design at UCI about designing and marketing 
 
 In the faraway future, all records of music have been wiped from existence due to an undisclosed incident. When time travel is invented, you are sent on a mission to travel back in time and recover all of the music that was lost.
 
-A quasi-8 key rhythm game with story component, version 1.0 almost finished!
+A quasi-8 key rhythm game with story component!
 
 ## Controls
 
